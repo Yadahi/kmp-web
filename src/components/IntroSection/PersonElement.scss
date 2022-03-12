@@ -1,0 +1,15 @@
+.intro-person {
+  &__row {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  &__img {
+    max-width: 250px;
+  }
+  &__title {
+  }
+  &__description {
+  }
+}

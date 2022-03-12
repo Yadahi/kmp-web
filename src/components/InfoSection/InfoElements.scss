@@ -1,0 +1,146 @@
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-yellow {
+  background-color: $yellow-color;
+}
+
+.bg-green {
+  background-color: $primary-color;
+}
+
+.font-blue {
+  color: $blue-color;
+}
+
+.font-green {
+  color: $primary-color;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.info {
+  &__container {
+    color: #fff;
+  }
+
+  &__wrapper {
+    display: flex;
+    z-index: 1;
+    height: 600px;
+    width: 100%;
+    // max-width: 1000px;
+    // margin-right: auto;
+    // margin-left: auto;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    @include wrapper;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  &__row--reverse {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.column1 {
+  margin-bottom: 15px;
+  padding: 0 15px;
+  width: 100%;
+  background-image: url("../../images/ornament-half.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.column2 {
+  display: none;
+}
+
+.text-wrapper {
+  max-width: 540px;
+  padding-top: 0;
+}
+
+.top-line {
+  // color: #01bf71;
+  font-size: 20px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  // text-transform: uppercase;
+  // margin-bottom: 16px;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  text-align: left;
+}
+
+.subtitle {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-wrap {
+  max-width: 400px;
+  height: 100%;
+}
+img {
+  width: 100%;
+}
+
+.img-size {
+  max-height: 450px;
+  width: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .info__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10vh;
+  }
+  .info__row--reverse {
+    gap: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    .column1 {
+      order: 2;
+    }
+    .column2 {
+      order: 1;
+    }
+  }
+  .column2 {
+    // grid-area: column2;
+    display: block;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .text-wrapper {
+    padding-bottom: 60px;
+  }
+}

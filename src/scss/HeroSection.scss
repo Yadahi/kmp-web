@@ -1,0 +1,112 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  background: $primary-color;
+
+  @media screen and (min-width: 768px) {
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  &__wrapper {
+    position: relative;
+    // height: 100%;
+    padding: 10px 10px 0 10px;
+    //mixin wrapper
+    background-image: url("../images/ornament-waves.png");
+    background-repeat: no-repeat;
+
+    background-position: 20vw 80%;
+    background-size: 20%;
+    // background-position-y: bottom 10px;
+    @include wrapper;
+
+    display: grid;
+    grid-template-areas:
+      "title"
+      "img"
+      "description"
+      "btn";
+
+    @media screen and (min-width: 768px) {
+      grid-template-areas:
+        "title img"
+        "description img"
+        "btn img";
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      column-gap: 20px;
+    }
+  }
+  &__title {
+    grid-area: title;
+    & > h1,
+    span {
+      color: #fff;
+      font-size: 32px;
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
+      @media screen and (min-width: 768px) {
+        font-size: 48px;
+      }
+      @media (min-width: 992px) {
+        font-size: 56px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 72px;
+      }
+    }
+    span {
+      color: $red-color;
+    }
+  }
+  &__description {
+    grid-area: description;
+    color: #fff;
+
+    // font-weight: 700;
+    & > p {
+      font-size: 20px;
+    }
+    // padding: 10px 20px;
+  }
+  &__image {
+    grid-area: img;
+    // width: 100%;
+    img {
+      width: 100%;
+      max-height: auto;
+      // height: 100%;
+      // max-height: 400px;
+    }
+  }
+}
+
+.hero-btns {
+  grid-area: btn;
+  display: flex;
+  flex-direction: column;
+
+  // margin-top: 32px;
+  // padding: 0 20px;
+
+  @media screen and (min-width: 768px) {
+    // justify-content: space-between;
+    width: fit-content;
+  }
+}
+.hero-btns .btn {
+  margin: 5px 0;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+// @media screen and (min-width: 768px) {
+//   .hero-container {
+//     height: 500px;
+//   }
+// }
