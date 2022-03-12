@@ -2,7 +2,7 @@
   "name": "react-website-project-one",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yadahi.github.io/KMP/",
+  "homepage": "https://yadahi.github.io/kmp-web/",
   "dependencies": {
     "@next/react-refresh-utils": "^12.0.7",
     "@testing-library/jest-dom": "^5.11.4",
