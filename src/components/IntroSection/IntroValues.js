@@ -17,7 +17,7 @@ function IntroValues() {
                 <img src={sportIcon} alt="" />
               </div>
               <div className="intro-values__title">
-                <h3 class="h3 font-blue">Šport</h3>
+                <h3 className="h3 font-blue">Šport</h3>
               </div>
               <div className="intro-values__description">
                 <p>Zorganizovali sme 10 sportovych aktivit</p>
@@ -28,7 +28,7 @@ function IntroValues() {
                 <img src={beesIcon} alt="" />
               </div>
               <div className="intro-values__title">
-                <h3 class="h3 font-blue">Včely</h3>
+                <h3 className="h3 font-blue">Včely</h3>
               </div>
               <div className="intro-values__description">
                 <p>Osadili sme niekolko ulov </p>
@@ -39,7 +39,7 @@ function IntroValues() {
                 <img src={cinemaIcon} alt="" />
               </div>
               <div className="intro-values__title">
-                <h3 class="h3 font-blue">Jeden Svet</h3>
+                <h3 className="h3 font-blue">Jeden Svet</h3>
               </div>
               <div className="intro-values__description">
                 <p>

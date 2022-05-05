@@ -1,0 +1,29 @@
+@import "./settings.scss";
+@import "./settings/schemes-setting.scss";
+@import "./utils/mixin.scss";
+
+@import "./layouts/layouts.scss";
+
+@import "./src/scss/Variables.scss";
+@import "./src/scss/wrapper.scss";
+@import "./src/scss/page-elements.scss";
+
+@import "./components/HomePage.scss";
+@import "./components/Cards.scss";
+@import "./components/Footer.scss";
+@import "./components/HeroSection.scss";
+@import "./components/Navbar.scss";
+@import "./components/Button.scss";
+@import "./components/Article.scss";
+@import "./src/components/IntroSection/IntroElement.scss";
+@import "./src/components/IntroSection/IntroDescElement.scss";
+@import "./src/components/InfoSection/InfoElements.scss";
+
+// new scss styles
+@import "./utils/text-color.scss";
+@import "./utils/text-size.scss";
+@import "./utils/text-weight.scss";
+@import "./utils/align.scss";
+@import "./utils/display.scss";
+@import "./utils/flex.util.scss";
+@import "./utils/mixin.scss";

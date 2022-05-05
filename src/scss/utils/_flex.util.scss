@@ -1,0 +1,19 @@
+.flex-wrap {
+  &--wrap {
+    flex-wrap: wrap;
+
+    @each $bp, $value in $breakpoints {
+      &--#{$bp} {
+        @include breakpoint(#{$bp}) {
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+  &--no-wrap {
+    flex-wrap: nowrap;
+  }
+  &--wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+}

@@ -1,0 +1,9 @@
+.text {
+  &--color {
+    @each $color, $value in $main-colors {
+      &--#{$color} {
+        color: $value !important;
+      }
+    }
+  }
+}

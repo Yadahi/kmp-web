@@ -1,10 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Button } from './Button';
-// import "./Navbar.css";
-import logo from '../images/logo.svg'
-import text from '../images/text.svg'
+import { Button } from "./Button";
 
+import logo from "../images/logo.svg";
+import text from "../images/text.svg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -14,18 +13,18 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if(window.innerWidth <= 960) {
+    if (window.innerWidth <= 960) {
       setButton(false);
     } else {
       setButton(true);
     }
-  }
+  };
 
   useEffect(() => {
-    showButton()
+    showButton();
   }, []);
 
-  window.addEventListener('resize', showButton)
+  window.addEventListener("resize", showButton);
 
   return (
     <>
@@ -34,9 +33,8 @@ function Navbar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             {/* TRVL  */}
             {/* <i className="fab fa-typo3" /> */}
-            <img src={logo} alt="logo" style={{marginRight: '10'}}/>
+            <img src={logo} alt="logo" style={{ marginRight: "10" }} />
             <img src={text} alt="text" />
-            
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -48,17 +46,29 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/products"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Projekty
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/sign-up" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/sign-up"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Objednaj
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/sign-up" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/sign-up"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Podpor nás
               </Link>
             </li>
@@ -67,7 +77,7 @@ function Navbar() {
         </div>
       </nav>
     </>
-  )
+  );
 }
 
 export default Navbar;

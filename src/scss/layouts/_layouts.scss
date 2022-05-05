@@ -1,0 +1,7 @@
+.layout__inner {
+  max-width: 50rem;
+  margin: 0 auto;
+  @include breakpoint(xxlarge) {
+    width: 50rem;
+  }
+}

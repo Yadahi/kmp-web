@@ -28,7 +28,7 @@ function Footer() {
           <div className="social-media-wrap">
             {/* <small className="website-rights">Keď môžem pomôžem © 2022</small> */}
             <div className="footer-logo">
-              <Link to="/" class="social-logo">
+              <Link to="/" className="social-logo">
                 <img src={logo} alt="logo" />
                 <img src={text} alt="text" />
               </Link>

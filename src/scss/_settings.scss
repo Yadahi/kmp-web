@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+// Table of Contents:
+//
+// 1. Global
+// 2. Breakpoints
+
+// 1. Global
+$primary: #6db784;
+$white: #fff;
+$blue: #1b4d89;
+$red: #e64e53;
+$yellow: #f9e45b;
+
+$global-weight-normal: 400;
+$global-weight-demi: 600;
+$global-weight-bold: 800;
+
+$global-radius: 8px;
+
+// 2. Breakpoints
+$breakpoints: (
+  xsmal: 0,
+  small: 480px,
+  medium: 724px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+) !default;

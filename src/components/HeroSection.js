@@ -12,7 +12,7 @@ function HeroSection() {
           </h1>
         </div>
         <div className="hero-container__description">
-          <p>
+          <p className="text--red">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
