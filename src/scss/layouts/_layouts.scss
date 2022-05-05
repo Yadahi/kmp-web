@@ -1,7 +1,19 @@
-.layout__inner {
-  max-width: 50rem;
-  margin: 0 auto;
-  @include breakpoint(xxlarge) {
-    width: 50rem;
+.layout {
+  width: 100%;
+  &__inner {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1rem;
+    @include breakpoint(xxlarge) {
+      width: 50rem;
+    }
+  }
+  &__project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem 2rem;
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+    }
   }
 }

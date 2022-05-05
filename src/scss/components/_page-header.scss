@@ -1,0 +1,16 @@
+.page-header {
+  &--bg-color {
+    @each $color, $value in $main-colors {
+      &--#{$color} {
+        background-color: $value !important;
+      }
+    }
+  }
+  &--color {
+    @each $color, $value in $main-colors {
+      &--#{$color} {
+        color: $value !important;
+      }
+    }
+  }
+}

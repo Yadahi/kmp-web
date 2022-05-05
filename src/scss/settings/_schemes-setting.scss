@@ -4,4 +4,16 @@ $main-colors: (
   blue: #1b4d89,
   red: #e64e53,
   yellow: #f9e45b,
+) !default;
+
+$alpha-colors: () !default;
+$alpha-colors: map-merge(
+  (
+    secondary-alpha-10: hsla(221, 25%, 78%, 0.1),
+    secondary-alpha-20: hsla(221, 25%, 78%, 0.2),
+    secondary-alpha-40: hsla(221, 25%, 78%, 0.4),
+    secondary-alpha-60: hsla(221, 25%, 78%, 0.6),
+    secondary-alpha-80: hsla(221, 25%, 78%, 0.8),
+  ),
+  $alpha-colors
 );

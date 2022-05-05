@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  flex: 1 1 33%;
+  text-decoration: none;
+  color: $global-color;
+  padding: 2rem 1rem;
+  border: 1px solid map-get($alpha-colors, secondary-alpha-80);
+  border-radius: 1rem;
+  box-shadow: $global-box-shadow;
+  &__image {
+    border-radius: 1rem;
+    & > img {
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+    &--small {
+    }
+  }
+  &__title {
+    &--small {
+    }
+  }
+  &__annotation {
+    &--small {
+    }
+  }
+}
