@@ -1,0 +1,83 @@
+.navbar {
+  background-color: $primary;
+  // height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 80px;
+    .navbar__logo {
+      display: flex;
+    }
+    .navbar__menu {
+      .navbar__list {
+        // when navigation is not active it is hidden outside of viewport
+        @media screen and (max-width: 723px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          position: absolute;
+          top: 80px;
+          left: -100%;
+          opacity: 1;
+          transition: all 0.5s ease;
+          list-style-type: none;
+          .navbar__link {
+            // dopisat
+            color: red;
+          }
+        }
+        // defined navigation menu when viewport widder than small
+        @include breakpoint(medium) {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          list-style-type: none;
+          height: 100%;
+        }
+        &.active {
+          // when clicked -> active and screen small show navigation
+          @media screen and (max-width: 723px) {
+            background: #242222;
+            left: 0;
+            opacity: 1;
+            transition: all 0.5s ease;
+            z-index: 1;
+          }
+        }
+      }
+      .navbar__item {
+        padding: 1rem;
+        &:hover {
+          &::after {
+            content: "";
+            border-bottom: 2px solid #fff;
+            display: block;
+            transition: all 0.2s ease-out;
+          }
+        }
+      }
+      .navbar__link {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .navbar__button {
+    display: block;
+    color: $white;
+    & > i {
+      font-size: 1.5rem;
+    }
+
+    @include breakpoint(medium) {
+      display: none;
+    }
+  }
+}
