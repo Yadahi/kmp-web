@@ -14,7 +14,9 @@
     background-color: map-get($tints-colors, red-50);
     box-shadow: $global-box-shadow-2;
     .card__image {
+      // TODO add transition when removing the cursor
       transform: scale(102%);
+      transition: transform 0.75s ease;
     }
   }
   &:active {
