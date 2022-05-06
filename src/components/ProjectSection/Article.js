@@ -5,6 +5,7 @@ import { articles } from "./ArticlesData";
 import productImg from "../../images/girl.jpg";
 import BreakerElement from "../BreakerIcon";
 import { SRLWrapper } from "simple-react-lightbox";
+import Gallery from "../Gallery";
 
 function Article() {
   let { id } = useParams();
@@ -23,31 +24,20 @@ function Article() {
     <>
       <div className="layout">
         <div className="layout__inner">
-          <SRLWrapper>
-            <div className="layout__article article">
-              <img className="article__header__img-main" src={productImg} />
-              <img className="article__header__img-side" src={productImg} />
-              <h1 className="article__header__heading">{article.title}</h1>
-              <div className="article__header__annotation">
-                <p>{article.annotation}</p>
-              </div>
-
-              <div className="article__body">
-                <BreakerElement />
-
-                <p>{article.text}</p>
-
-                {/* <SRLWrapper elements={gallery} /> */}
-                {/* {article.gallery
-                ? article.gallery.map((img) => (
-                  <SRLWrapper>
-                  <img src={img.image} alt={img.name} key={img.id} />
-                  </SRLWrapper>
-                  ))
-                : ""} */}
-              </div>
+          <div className="layout__article article">
+            <img
+              className="article__header__img-main"
+              src={"../images/aboutus.png"}
+            />
+            <h1 className="article__header__heading">{article.title}</h1>
+            <div className="article__body">
+              <p>{article.text}</p>
+              <BreakerElement />
+              <SRLWrapper>
+                <Gallery gallery={gallery} />
+              </SRLWrapper>
             </div>
-          </SRLWrapper>
+          </div>
         </div>
       </div>
     </>

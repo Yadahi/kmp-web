@@ -4,44 +4,48 @@ export const articles = [
     title: "Keď možem športujem",
     annotation:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sagittis hendrerit ante. Suspendisse nisl. Ut tempus purus at lorem. Proin in tellus sit amet nibh dignissim sagittis. Mauris elementum mauris vitae tortor. Nullam dapibus fermentum ipsum. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Fusce nibh. Integer imperdiet lectus quis justo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Curabitur sagittis hendrerit ante. Duis viverra diam non justo. Pellentesque pretium lectus id turpis. Nulla non arcu lacinia neque faucibus fringilla. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Vivamus porttitor turpis ac leo. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Praesent id justo in neque elementum ultrices. Integer vulputate sem a nibh rutrum consequat. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Vivamus ac leo pretium faucibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer lacinia. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc tincidunt ante vitae massa. Quisque tincidunt scelerisque libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer in sapien. Morbi scelerisque luctus velit. Maecenas lorem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Integer tempor. Aliquam id dolor. Praesent vitae arcu tempor neque lacinia pretium.",
+    text: "Pod týmto projektom si predstav pohyb, radosť, pohodu a inklúziu naraz. Kostrou projektu sú športovania pre deti a mládež zo znevýhodneného prostredia, na ktoré však majú dvere otvorené všetci a môžu tak týchto mladých spoznať. Dávame tak šancu na kvalitne strávený čas pre všetky zúčastnené skupiny. Samozrejme po každom športovaní nemôže chýbať Tlačovka, kde si pri občerstvení povieme o čom vlastne život je a či to vlastne vôbec vieme. Začať s projektom sme mohli vďaka štedrým nórskym fondom AFC Funds a Karpatskej nadácii, za čo im budeme navždy vďační.",
     gallery: [
       {
         id: 0,
-        name: "picture 1",
+        name: "picture 0",
         image: "../../images/aboutus.png",
       },
       {
         id: 1,
         name: "picture 1",
-        image: "../../images/aboutus.png",
+        image: "../../images/hp-boy.png",
       },
       {
         id: 2,
-        name: "picture 1",
+        name: "picture 2",
+        image: "../../images/hp-girl.png",
+      },
+      {
+        id: 3,
+        name: "picture 2",
+        image: "../../images/kubo.png",
+      },
+      {
+        id: 4,
+        name: "picture 2",
         image: "../../images/aboutus.png",
       },
     ],
   },
   {
     id: 1,
-    title: "Keď možem rotujem",
-    annotation:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sagittis hendrerit ante. Suspendisse nisl. Ut tempus purus at lorem. Proin in tellus sit amet nibh dignissim sagittis. Mauris elementum mauris vitae tortor. Nullam dapibus fermentum ipsum. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Vivamus ac leo pretium faucibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer lacinia. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc tincidunt ante vitae massa. Quisque tincidunt scelerisque libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer in sapien. Morbi scelerisque luctus velit. Maecenas lorem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Integer tempor. Aliquam id dolor. Praesent vitae arcu tempor neque lacinia pretium.",
+    title: "Majstrovstvá v pohodovom športovaní",
+    text: "Naša každoročná oslava športu, priateľstva a pohody. Okrem viacero rôznych športov sa snažíme pripraviť takú atmosféru, aby si zabudol na všetky nepríjemnosti sveta a v duchu kalokagatie rozvíjal svoju duchovnú i telesnú schránku so všetkým čo k tomu patrí. Vrelo odporúčame všetkým túto udalosť ochutnať.",
   },
   {
     id: 2,
-    title: "Keď možem lietam",
-    annotation:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sagittis hendrerit ante. Suspendisse nisl. Ut tempus purus at lorem. Proin in tellus sit amet nibh dignissim sagittis. Mauris elementum mauris vitae tortor. Nullam dapibus fermentum ipsum. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Morbi scelerisque luctus velit. Maecenas lorem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Integer tempor. Aliquam id dolor. Praesent vitae arcu tempor neque lacinia pretium.",
+    title: "UrbanVčela",
+    text: "V našom OZku máme vášnivých milovnikov včiel, a tak sme sa proste museli začať venovať aj tejto činnosti. Skúsili sme dať dva úľe k spriaznenému Kinu Úsmev, avšak dvorček za budovou nebol ideálnym miestom pre tieto zázračné stvorenia. Presunuli sme ich tak na záhradku na Kalvárii, kde pokračujú vo svojom spokojnom živote. Časom by sme radi včelárstvo zaradili do našej osvetovej činnosti a možno tiež ponúkali apiterapiu.",
   },
   {
     id: 3,
-    title: "Keď možem jem",
-    annotation:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sagittis hendrerit ante. Suspendisse nisl. Ut tempus purus at lorem. Proin in tellus sit amet nibh dignissim sagittis. Mauris elementum mauris vitae tortor. Integer tempor. Aliquam id dolor. Praesent vitae arcu tempor neque lacinia pretium.",
+    title: "Festival dokumentárnych filmov Jeden Svet Košice",
+    text: "Od roku 2020 zastrešujeme v Košiciach festival dokumentárnych filmov s ľudsko-právnou tematikou so slávnou značkou Jeden Svet a sme na to hrdí. Vďaka úžasnej šéfke festivalu Natálii Centkovej a skvelému teamu, ktorý sa rozširuje každým rokom dostáva festival po rokoch vajatania v Košiciach konečne kvalitnú podobu. Jeho program je nabitý skvelými dokumentami, diskusiami a sprievodným programom.",
   },
 ];
