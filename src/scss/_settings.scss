@@ -11,6 +11,7 @@
 //
 // 1. Global
 // 2. Breakpoints
+// 3. Shadows
 
 // 1. Global
 $primary: #6db784;
@@ -27,10 +28,6 @@ $global-radius: 8px;
 
 $global-color: black;
 // $global-color-gray: map-get($alpha-colors, secondary-alpha-60);
-
-$global-box-shadow: 0 2px 2px rgba(121, 138, 175, 0.12),
-  0 8px 8px rgba(121, 138, 175, 0.12), 0 18px 18px rgba(121, 138, 175, 0.12),
-  0 32px 32px rgba(121, 138, 175, 0.12);
 
 // 2. Breakpoints
 $breakpoints: (
@@ -51,3 +48,13 @@ h2 {
 h3 {
   font-size: calc(1.5rem + 0.5vw);
 }
+
+// 3. Shadows
+$global-box-shadow-1: 0 2px 2px rgba(121, 138, 175, 0.12);
+$global-box-shadow-2: 0 2px 2px rgba(121, 138, 175, 0.12),
+  0 8px 8px rgba(121, 138, 175, 0.12);
+$global-box-shadow-3: 0 2px 2px rgba(121, 138, 175, 0.12),
+  0 8px 8px rgba(121, 138, 175, 0.12), 0 18px 18px rgba(121, 138, 175, 0.12);
+$global-box-shadow-4: 0 2px 2px rgba(121, 138, 175, 0.12),
+  0 8px 8px rgba(121, 138, 175, 0.12), 0 18px 18px rgba(121, 138, 175, 0.12),
+  0 32px 32px rgba(121, 138, 175, 0.12);
