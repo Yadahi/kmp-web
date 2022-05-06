@@ -1,9 +1,10 @@
 .layout {
   width: 100%;
+  flex-grow: 1;
   &__inner {
     max-width: 50rem;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem 1rem;
     @include breakpoint(xxlarge) {
       width: 50rem;
     }
@@ -14,6 +15,31 @@
     gap: 2.5rem 2rem;
     @media screen and (max-width: 480px) {
       flex-direction: column;
+    }
+  }
+  &__article {
+    display: grid;
+    gap: 2rem;
+    @media (max-width: 724px) {
+      grid-template-areas:
+        "header-title"
+        "header-annotation"
+        "header-main-img"
+        "header-body";
+      gap: 1rem;
+    }
+    // grid-auto-rows: 1fr;
+    @include breakpoint(medium) {
+      grid-template-areas:
+        // "header-main-img header-main-img header-side-img"
+        // "header-title header-title header-side-img"
+        // "header-annotation header-annotation header-side-img"
+        // "header-body header-body header-body";
+
+        "header-main-img header-main-img header-side-img"
+        "header-title header-title header-side-img"
+        "header-annotation header-annotation header-side-img"
+        "header-body header-body header-body";
     }
   }
 }

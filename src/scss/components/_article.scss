@@ -1,0 +1,30 @@
+.article {
+  &__header {
+    &__img-main {
+      grid-area: header-main-img;
+      width: 100%;
+      object-fit: cover;
+      max-height: 200px;
+      border-radius: 0.5rem;
+    }
+    &__img-side {
+      grid-area: header-side-img;
+      height: 100%;
+      object-fit: cover;
+      display: none;
+      border-radius: 0.5rem;
+      @include breakpoint(medium) {
+        display: block;
+      }
+    }
+    &__heading {
+      grid-area: header-title;
+    }
+    &__annotation {
+      grid-area: header-annotation;
+    }
+  }
+  &__body {
+    grid-area: header-body;
+  }
+}
