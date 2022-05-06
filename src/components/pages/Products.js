@@ -22,8 +22,8 @@ function Products() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <BreakerElement />
       </div>
+      <BreakerElement />
 
       <div className="layout__inner layout__project">
         <Card
