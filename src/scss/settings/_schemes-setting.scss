@@ -1,10 +1,53 @@
-$main-colors: (
-  primary: #6db784,
-  white: #fff,
-  blue: #1b4d89,
-  red: #e64e53,
-  yellow: #f9e45b,
-) !default;
+// $main-colors: (
+//   primary: hsl(139, 34%, 57%),
+//   white: hsl(0, 0%, 100%),
+//   blue: hsl(213, 67%, 32%),
+//   red: hsl(358, 74%, 60%),
+//   yellow: hsl(52, 93%, 67%),
+// ) !default;
+
+$main-colors: () !default;
+$main-colors: map-merge(
+  (
+    primary: hsla(139, 34%, 57%, 1),
+    secondary: hsl(52, 93%, 67%, 1),
+    tertiary: hsl(213, 67%, 32%, 1),
+    eerie-black: hsla(216, 9%, 10%, 1),
+    white: hsla(255, 255, 255, 1),
+    red: hsla(358, 74%, 60%, 1),
+  ),
+  $main-colors
+);
+
+$tints-colors: () !default;
+$tints-colors: map-merge(
+  (
+    primary-900: hsla(139, 71%, 21%, 1),
+    primary-400: hsla(139, 50%, 53%, 1),
+    primary-300: hsla(139, 50%, 65%, 1),
+    primary-200: hsla(139, 50%, 76%, 1),
+    primary-100: hsla(139, 50%, 88%, 1),
+    primary-50: hsla(139, 50%, 94%, 1),
+    secondary-900: hsl(52, 93%, 53%, 1),
+    secondary-400: hsl(52, 83%, 65%, 1),
+    secondary-300: hsl(52, 73%, 76%, 1),
+    secondary-200: hsl(52, 63%, 88%, 1),
+    secondary-100: hsl(52, 53%, 94%, 1),
+    tertiary-900: hsl(213, 67%, 32%, 1),
+    tertiary-400: hsl(213, 50%, 42%, 1),
+    tertiary-300: hsl(213, 50%, 52%, 1),
+    tertiary-200: hsl(213, 50%, 62%, 1),
+    tertiary-100: hsl(213, 50%, 72%, 1),
+    tertiary-50: hsl(213, 50%, 82%, 1),
+    red-900: hsla(358, 74%, 60%, 1),
+    red-400: hsla(358, 74%, 70%, 1),
+    red-300: hsla(358, 50%, 70%, 1),
+    red-200: hsla(358, 50%, 80%, 1),
+    red-100: hsla(358, 50%, 90%, 1),
+    red-50: hsla(358, 50%, 95%, 1),
+  ),
+  $tints-colors
+);
 
 $alpha-colors: () !default;
 $alpha-colors: map-merge(
