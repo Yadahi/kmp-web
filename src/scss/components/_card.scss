@@ -7,9 +7,19 @@
   text-decoration: none;
   color: $global-color;
   padding: 2rem 1rem;
-  border: 1px solid map-get($alpha-colors, secondary-alpha-80);
+  border: 2px solid map-get($tints-colors, red-900);
   border-radius: 1rem;
-  box-shadow: $global-box-shadow;
+  transition: transform 0.5s ease;
+  &:hover {
+    background-color: map-get($tints-colors, red-50);
+    box-shadow: $global-box-shadow-2;
+    .card__image {
+      transform: scale(102%);
+    }
+  }
+  &:active {
+    transform: scale(95%);
+  }
   &__image {
     border-radius: 1rem;
     & > img {
