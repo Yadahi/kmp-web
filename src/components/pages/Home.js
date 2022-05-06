@@ -10,11 +10,10 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <InfoSection {...homeObjAbout}/>
+      <InfoSection {...homeObjAbout} />
       <Cards />
-      <InfoSection {...homeObjHire}/>
-      <InfoSection {...homeObjDonate}/>
-      <Footer />
+      <InfoSection {...homeObjHire} />
+      <InfoSection {...homeObjDonate} />
     </>
   );
 }
