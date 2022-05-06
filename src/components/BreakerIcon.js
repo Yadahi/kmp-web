@@ -1,11 +1,11 @@
-import BreakerIcon from "../images/icons/breaker.svg";
+import { ReactComponent as BreakerIcon } from "../images/icons/breaker.svg";
 
 import React from "react";
 
 function BreakerElement() {
   return (
     <div className="breaker-element">
-      <img src={BreakerIcon} />
+      <BreakerIcon />
     </div>
   );
 }
