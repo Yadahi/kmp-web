@@ -28,14 +28,8 @@
         "header-body";
       gap: 1rem;
     }
-    // grid-auto-rows: 1fr;
     @include breakpoint(medium) {
       grid-template-areas:
-        // "header-main-img header-main-img header-side-img"
-        // "header-title header-title header-side-img"
-        // "header-annotation header-annotation header-side-img"
-        // "header-body header-body header-body";
-
         "header-main-img header-main-img header-side-img"
         "header-title header-title header-side-img"
         "header-annotation header-annotation header-side-img"
