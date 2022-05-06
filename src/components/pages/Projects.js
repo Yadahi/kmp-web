@@ -33,7 +33,7 @@ function Projects() {
               key={article.id}
               image={productImg}
               text={article.annotation}
-              path="/about"
+              path={`/projects/${article.id}`}
               title={article.title}
             />
           );

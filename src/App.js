@@ -7,6 +7,8 @@ import Home from "./components/pages/Home.js";
 import About from "./components/pages/About.js";
 import Projects from "./components/pages/Projects";
 import SignUp from "./components/pages/SignUp.js";
+import ErrorPage from "./components/pages/ErrorPage.js";
+import Article from "./components/ProjectSection/Article.js";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/projects" exact element={<Projects />} />
+          <Route path="/projects/:id" exact element={<Article />} />
           <Route path="/sign-up" exact element={<SignUp />} />
+          <Route path="*" exact element={<ErrorPage />} />
         </Routes>
         <Footer />
       </Router>
