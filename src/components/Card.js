@@ -1,14 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Card(props) {
   const { path, image, title, text } = props;
+  let navigate = useNavigate();
   return (
-    <Link className="card" to={path}>
+    <div
+      className="card"
+      onClick={() => {
+        navigate(path);
+      }}
+    >
       <img className="card__image" src={image}></img>
       <h3 className="card__title">{title}</h3>
       <p className="card__annotation">{text}</p>
-    </Link>
+    </div>
   );
 }
 

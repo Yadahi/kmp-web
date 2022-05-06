@@ -10,6 +10,7 @@
   border: 2px solid map-get($tints-colors, red-900);
   border-radius: 1rem;
   transition: transform 0.5s ease-out;
+  cursor: pointer;
   &:hover {
     // transform: scale(1.02);
     background-color: map-get($tints-colors, red-50);
