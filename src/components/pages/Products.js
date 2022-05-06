@@ -8,7 +8,7 @@ function Products() {
   return (
     <>
       <div className="layout">
-        <h1 class="h1 page-header page-header--bg-color--blue page-header--color--white">
+        <h1 className="h1 page-header page-header--bg-color--tertiary page-header--color--white">
           Projekty
         </h1>
       </div>
