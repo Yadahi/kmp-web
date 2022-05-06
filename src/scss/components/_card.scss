@@ -9,14 +9,14 @@
   padding: 2rem 1rem;
   border: 2px solid map-get($tints-colors, red-900);
   border-radius: 1rem;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-out;
   &:hover {
+    // transform: scale(1.02);
     background-color: map-get($tints-colors, red-50);
     box-shadow: $global-box-shadow-2;
     .card__image {
       // TODO add transition when removing the cursor
-      transform: scale(102%);
-      transition: transform 0.75s ease;
+      transform: scale(1.02);
     }
   }
   &:active {
@@ -24,6 +24,7 @@
   }
   &__image {
     border-radius: 1rem;
+    transition: all 0.5s ease-out;
     & > img {
       height: auto;
       width: 100%;
