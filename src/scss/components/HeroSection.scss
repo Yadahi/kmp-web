@@ -16,7 +16,8 @@
     line-height: 1.5;
     color: $white;
     span {
-      color: map-get($tints-colors, red-900);
+      // color: map-get($tints-colors, red-900);
+      color: $tertiary;
     }
   }
 }

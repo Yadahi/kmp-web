@@ -15,7 +15,12 @@ function Home() {
       <SectionLayout {...homeObjAbout} reverse={true} />
       <Cards />
       <SectionLayout {...homeObjDonate} />
-      <SectionLayout {...homeObjContact} bgColor="red-400" reverse={true} />
+      <SectionLayout
+        {...homeObjContact}
+        bgColor="red-400"
+        reverse={true}
+        btnColor="red"
+      />
     </>
   );
 }

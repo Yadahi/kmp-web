@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Button } from "../Button";
 
 function SectionCardText(props) {
   const {
@@ -10,6 +11,7 @@ function SectionCardText(props) {
     headlineColor: titleColor = "",
     topLine: label,
     path,
+    btnColor,
   } = props;
   console.log(props);
   let navigate = useNavigate();
@@ -26,14 +28,7 @@ function SectionCardText(props) {
       >
         <strong>{description}</strong>
       </p>
-      <button
-        className="button"
-        onClick={() => {
-          navigate(path);
-        }}
-      >
-        {button}
-      </button>
+      <Button path={path} label={label} color={btnColor} />
     </>
   );
 }

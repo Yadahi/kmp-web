@@ -18,7 +18,7 @@ export const homeObjContact = {
   headline: "Keď môžem ozvi sa",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  buttonLabel: "Objednať",
+  buttonLabel: "Kontaktuj",
   img: "../../images/hp-girl.png",
   imgSize: "img-size",
   alt: "deliver",
