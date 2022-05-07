@@ -1,0 +1,11 @@
+.logo-icon {
+  &--color {
+    @each $color, $value in $main-colors {
+      &--#{$color} {
+        path {
+          fill: $value !important;
+        }
+      }
+    }
+  }
+}

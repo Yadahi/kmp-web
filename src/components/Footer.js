@@ -21,55 +21,52 @@ function Footer() {
         <p>IČO: 51278561</p>
       </div>
       <div className="footer__icons">
-        <div className="">
-          <div className="">
-            <Link to="/" className="social-logo">
-              <LogoIcon />
-              <TextIcon />
-            </Link>
-          </div>
-          <div className="">
-            <Link
-              className="social-icon-link facebook"
-              to="/"
-              target="_blank"
-              aria-label="Facebook"
-            >
-              <i className="fab fa-facebook-f" />
-            </Link>
-            <Link
-              className="social-icon-link instagram"
-              to="/"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <i className="fab fa-instagram" />
-            </Link>
-            <Link
-              className="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i className="fab fa-youtube" />
-            </Link>
-            <Link
-              className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i className="fab fa-twitter" />
-            </Link>
-            <Link
-              className="social-icon-link linkedin"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i className="fab fa-linkedin" />
-            </Link>
-          </div>
+        <Link to="/" className="logo__footer">
+          <LogoIcon color="tertiary" />
+          <TextIcon color="tertiary" />
+        </Link>
+
+        <div className="social-icon">
+          <Link
+            className="social-icon-link facebook"
+            to="/"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <i className="fab fa-facebook-f" />
+          </Link>
+          <Link
+            className="social-icon-link instagram"
+            to="/"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i className="fab fa-instagram" />
+          </Link>
+          <Link
+            className="social-icon-link youtube"
+            to="/"
+            target="_blank"
+            aria-label="Youtube"
+          >
+            <i className="fab fa-youtube" />
+          </Link>
+          <Link
+            className="social-icon-link twitter"
+            to="/"
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <i className="fab fa-twitter" />
+          </Link>
+          <Link
+            className="social-icon-link linkedin"
+            to="/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i className="fab fa-linkedin" />
+          </Link>
         </div>
       </div>
     </div>

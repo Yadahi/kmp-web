@@ -9,5 +9,16 @@
   }
   &__icons {
     grid-area: footer-icons;
+
+    .logo__footer {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 1rem;
+    }
+    .social-icon {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+    }
   }
 }

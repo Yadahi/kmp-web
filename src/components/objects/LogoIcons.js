@@ -3,17 +3,17 @@ import { ReactComponent as LogoSvg } from "../../images/icons/logo.svg";
 
 import React from "react";
 
-function LogoIcon() {
+function LogoIcon({ color = "white" }) {
   return (
-    <div className="breaker-element">
+    <div className={`logo-icon--color--${color}`}>
       <LogoSvg />
     </div>
   );
 }
 
-function TextIcon() {
+function TextIcon({ color = "white" }) {
   return (
-    <div className="breaker-element">
+    <div className={`logo-icon--color--${color}`}>
       <TextSvg />
     </div>
   );
