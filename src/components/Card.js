@@ -2,11 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function Card(props) {
-  const { path, image, title, text } = props;
+  const { path, image, title, text, size = "" } = props;
   let navigate = useNavigate();
   return (
     <div
-      className="card"
+      className={`card ${size && `card--${size}`}`}
       onClick={() => {
         navigate(path);
       }}

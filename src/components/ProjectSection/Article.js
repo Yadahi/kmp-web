@@ -6,6 +6,7 @@ import productImg from "../../images/girl.jpg";
 import BreakerElement from "../BreakerIcon";
 import { SRLWrapper } from "simple-react-lightbox";
 import Gallery from "../Gallery";
+import Cards from "../Cards";
 
 function Article() {
   let { id } = useParams();
@@ -36,9 +37,11 @@ function Article() {
               <SRLWrapper>
                 <Gallery gallery={gallery} />
               </SRLWrapper>
+              <BreakerElement />
             </div>
           </div>
         </div>
+        <Cards />
       </div>
     </>
   );

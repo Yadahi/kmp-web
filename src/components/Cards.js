@@ -1,37 +1,33 @@
-import React from 'react';
-import CardItems from './CardItems';
-// import "./Cards.css";
+import React from "react";
+import Card from "./Card";
+import { articles } from "./ProjectSection/ArticlesData";
 
 function Cards() {
+  if (!articles) {
+    return null;
+  }
   return (
-    <div className="cards">
-      <h1>Keď môžem pomôžem projekty</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">
-            <CardItems
-              src="images/img-9.jpg"
-              text="Keď možem športujem"
-              label="Projekty"
-              path="/about"
+    <div className="layout__cards">
+      {/* TODO align center heading */}
+      <h3 className="text--color--white text--center margin-top-1 margin-bottom-1">
+        Projekty
+      </h3>
+      <div className="cards">
+        {articles.slice(0, 3).map((article) => {
+          return (
+            <Card
+              key={article.id}
+              image={article.image}
+              text={article.text}
+              path={`/projects/${article.id}`}
+              title={article.title}
+              size="small"
             />
-            <CardItems
-              src="images/img-2.jpg"
-              text="Keď možem včelárim"
-              label="Projekty"
-              path="/about"
-            />
-            <CardItems
-              src="images/img-2.jpg"
-              text="Keď možem pomáham"
-              label="Projekty"
-              path="/about"
-            />
-          </ul>
-        </div>
+          );
+        })}
       </div>
     </div>
-  )
+  );
 }
 
 export default Cards;

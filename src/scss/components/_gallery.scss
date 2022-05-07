@@ -1,7 +1,4 @@
 .gallery {
-  // display: grid;
-  // grid-template-columns: repeat(3, 1fr);
-  // grid-template-rows: auto;
   ul {
     display: flex;
     flex-direction: column;
@@ -16,6 +13,7 @@
     height: 30vh;
     flex: 1 1 25%;
     list-style: none;
+    box-shadow: $global-box-shadow-1;
     cursor: pointer;
   }
   img {

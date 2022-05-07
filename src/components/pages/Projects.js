@@ -31,7 +31,7 @@ function Projects() {
               <Card
                 key={article.id}
                 image={productImg}
-                text={article.annotation}
+                text={article.text}
                 path={`/projects/${article.id}`}
                 title={article.title}
               />

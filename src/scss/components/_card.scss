@@ -11,6 +11,9 @@
   border-radius: 1rem;
   transition: transform 0.5s ease-out;
   cursor: pointer;
+  &--small {
+    background-color: map-get($tints-colors, secondary-100);
+  }
   &:hover {
     // transform: scale(1.02);
     background-color: map-get($tints-colors, red-50);
@@ -18,11 +21,13 @@
     .card__image {
       // TODO add transition when removing the cursor
       transform: scale(1.02);
+      filter: grayscale(50%);
     }
   }
   &:active {
     transform: scale(95%);
   }
+
   &__image {
     border-radius: 1rem;
     transition: all 0.5s ease-out;
@@ -35,10 +40,18 @@
     }
   }
   &__title {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
     &--small {
     }
   }
   &__annotation {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     &--small {
     }
   }

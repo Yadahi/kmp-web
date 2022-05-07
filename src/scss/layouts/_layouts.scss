@@ -33,4 +33,8 @@
         "header-body ";
     }
   }
+  &__cards {
+    padding: 2rem 0;
+    background-color: map-get($main-colors, tertiary);
+  }
 }
