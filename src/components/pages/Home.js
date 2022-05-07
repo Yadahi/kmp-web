@@ -14,8 +14,8 @@ function Home() {
       <HeroSection />
       <SectionLayout {...homeObjAbout} />
       <Cards />
-      <SectionLayout {...homeObjHire} reverse={true} />
-      <SectionLayout {...homeObjDonate} />
+      <SectionLayout {...homeObjDonate} reverse={true} />
+      <SectionLayout {...homeObjHire} />
       {/* <InfoSection {...homeObjAbout} />
       <InfoSection {...homeObjHire} />
       <InfoSection {...homeObjDonate} /> */}

@@ -1,0 +1,7 @@
+.button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background-color: map-get($main-colors, secondary);
+  font-size: 1rem;
+  cursor: pointer;
+}

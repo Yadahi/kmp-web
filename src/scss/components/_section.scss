@@ -13,4 +13,12 @@
       display: inline-block;
     }
   }
+  &__img {
+    max-width: 100%;
+    max-height: calc(15rem + 10vw);
+    object-fit: contain;
+  }
+
+  &__label {
+  }
 }

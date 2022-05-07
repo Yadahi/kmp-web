@@ -1,5 +1,5 @@
 export const homeObjAbout = {
-  id: "about",
+  id: 0,
   topLine: "O nás",
   headline: "Keď môžem predstavím sa",
   description:
@@ -8,15 +8,15 @@ export const homeObjAbout = {
   img: "../../images/hp-aboutus.png",
   alt: "Hand",
   color: "bg-white",
-  reverse: false,
   headlineColor: "font-blue",
   descriptionColor: "font-green",
+  path: "/o-nas",
 };
 
 export const homeObjHire = {
-  id: "hire-us",
-  topLine: "Objednaj si nás",
-  headline: "Keď môžem pomôžeme",
+  id: 1,
+  topLine: "Kontakt",
+  headline: "Keď môžem ozvi sa",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   buttonLabel: "Objednať",
@@ -24,13 +24,13 @@ export const homeObjHire = {
   imgSize: "img-size",
   alt: "deliver",
   color: "bg-white",
-  reverse: true,
   headlineColor: "font-blue",
-  descriptionColor: "font-green",
+  descriptionColor: "tertiary",
+  path: "/kontakt",
 };
 
 export const homeObjDonate = {
-  id: "donate",
+  id: 2,
   topLine: "Podpor nás",
   headline: "Keď môžeš podporíš",
   description:
@@ -41,7 +41,7 @@ export const homeObjDonate = {
   imgBg: "../../",
   alt: "donate",
   color: "bg-green",
-  reverse: false,
   headlineColor: "font-blue",
   descriptionColor: "font-white",
+  path: "/podpor-nas",
 };
