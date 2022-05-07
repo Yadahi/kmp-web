@@ -42,7 +42,6 @@
   }
   &__footer {
     display: grid;
-    // grid-template-columns: 1fr;
     padding: 2rem;
     gap: 1rem;
     grid-template-areas:
@@ -51,7 +50,6 @@
       "footer-icons"
       "footer-info";
     @include breakpoint(small) {
-      // grid-template-columns: repeat(4, 1fr);
       grid-template-areas:
         "footer-nav footer-address ... footer-icons"
         "footer-info footer-info footer-info footer-info";
@@ -60,12 +58,10 @@
 
   &__section {
     display: grid;
-    // grid-template-columns: 1fr;
     grid-template-areas:
       "section-left"
       "section-right";
     @include breakpoint(small) {
-      // grid-template-columns: 1fr 1fr;
       grid-template-areas: "section-left section-right";
       gap: 2rem;
     }

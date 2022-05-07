@@ -67,7 +67,6 @@
       }
     }
     @include breakpoint(small) {
-      // align-items: flex-end;
       .logo__footer {
         justify-content: flex-end;
       }
