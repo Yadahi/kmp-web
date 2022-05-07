@@ -37,7 +37,7 @@ function Article() {
               <SRLWrapper>
                 <Gallery gallery={gallery} />
               </SRLWrapper>
-              <BreakerElement />
+              {!gallery ? null : <BreakerElement />}
             </div>
           </div>
         </div>
