@@ -11,7 +11,6 @@ function Footer() {
         <Link to="/">Projekty</Link>
         <Link to="/">Objednaj</Link>
         <Link to="/">Podpor nás</Link>
-        <small className="website-rights">Keď môžem pomôžem © 2022</small>
       </div>
       <div className="footer__address">
         <h4>Kontakt</h4>
@@ -22,52 +21,55 @@ function Footer() {
       </div>
       <div className="footer__icons">
         <Link to="/" className="logo__footer">
-          <LogoIcon color="tertiary" />
-          <TextIcon color="tertiary" />
+          <LogoIcon color="red" />
+          <TextIcon color="red" />
         </Link>
 
         <div className="social-icon">
           <Link
-            className="social-icon-link facebook"
+            className="social-icon__link facebook"
             to="/"
             target="_blank"
             aria-label="Facebook"
           >
-            <i className="fab fa-facebook-f" />
+            <i className="fab fa-facebook-f fa-lg" />
           </Link>
           <Link
-            className="social-icon-link instagram"
+            className="social-icon__link instagram"
             to="/"
             target="_blank"
             aria-label="Instagram"
           >
-            <i className="fab fa-instagram" />
+            <i className="fab fa-instagram fa-lg" />
           </Link>
           <Link
-            className="social-icon-link youtube"
+            className="social-icon__link youtube"
             to="/"
             target="_blank"
             aria-label="Youtube"
           >
-            <i className="fab fa-youtube" />
+            <i className="fab fa-youtube fa-lg" />
           </Link>
           <Link
-            className="social-icon-link twitter"
+            className="social-icon__link twitter"
             to="/"
             target="_blank"
             aria-label="Twitter"
           >
-            <i className="fab fa-twitter" />
+            <i className="fab fa-twitter fa-lg" />
           </Link>
           <Link
-            className="social-icon-link linkedin"
+            className="social-icon__link linkedin"
             to="/"
             target="_blank"
             aria-label="LinkedIn"
           >
-            <i className="fab fa-linkedin" />
+            <i className="fab fa-linkedin fa-lg" />
           </Link>
         </div>
+      </div>
+      <div className="footer__info">
+        <small className="website-rights">Keď môžem pomôžem © 2022</small>
       </div>
     </div>
     // <div className="footer__container bg-yellow">

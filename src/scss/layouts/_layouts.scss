@@ -43,15 +43,18 @@
   &__footer {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 2rem 1rem;
+    padding: 2rem;
     gap: 1rem;
     grid-template-areas:
-      "footer-info"
+      "footer-nav"
       "footer-address"
-      "footer-icons";
+      "footer-icons"
+      "footer-info";
     @include breakpoint(small) {
       grid-template-columns: repeat(4, 1fr);
-      grid-template-areas: "footer-info footer-address ... footer-icons";
+      grid-template-areas:
+        "footer-nav footer-address ... footer-icons"
+        "footer-info footer-info footer-info footer-info";
     }
   }
 }

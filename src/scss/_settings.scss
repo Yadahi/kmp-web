@@ -19,11 +19,12 @@
 // 3. Shadows
 
 // 1. Global
-$primary: #6db784;
-$white: #fff;
-$blue: #1b4d89;
-$red: #e64e53;
-$yellow: #f9e45b;
+$primary: hsla(139, 34%, 57%, 1);
+$secondary: hsl(52, 93%, 67%, 1);
+$tertiary: hsl(213, 67%, 32%, 1);
+$eerie-black: hsla(216, 9%, 10%, 1);
+$white: hsla(255, 255, 255, 1);
+$red: hsla(358, 74%, 60%, 1);
 
 $global-weight-normal: 400;
 $global-weight-demi: 600;

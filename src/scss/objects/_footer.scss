@@ -1,24 +1,45 @@
 .footer {
   &__navigation {
-    grid-area: footer-info;
+    grid-area: footer-nav;
     display: flex;
     flex-direction: column;
   }
   &__address {
     grid-area: footer-address;
   }
+  &__info {
+    grid-area: footer-info;
+  }
   &__icons {
     grid-area: footer-icons;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     .logo__footer {
       display: flex;
-      justify-content: flex-end;
-      padding: 0 1rem;
     }
     .social-icon {
       display: flex;
-      justify-content: space-between;
-      padding: 1rem;
+
+      padding-top: 1rem;
+      &__link {
+        padding-right: 1rem;
+      }
+      i {
+        color: $red;
+      }
+    }
+    @include breakpoint(small) {
+      .logo__footer {
+        justify-content: flex-end;
+      }
+      .social-icon {
+        justify-content: flex-end;
+      }
+      &__link {
+        padding-left: 1rem;
+      }
     }
   }
 }
