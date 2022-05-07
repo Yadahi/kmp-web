@@ -55,7 +55,9 @@
 
       padding-top: 1rem;
       &__link {
-        padding-right: 1rem;
+        @media screen and (max-width: 480px) {
+          padding-right: 2rem;
+        }
       }
       i {
         color: $red;
@@ -72,8 +74,8 @@
       .social-icon {
         justify-content: flex-end;
       }
-      &__link {
-        padding-left: 1rem;
+      .social-icon__link:nth-child(n + 2) {
+        padding-left: 3rem;
       }
     }
   }
