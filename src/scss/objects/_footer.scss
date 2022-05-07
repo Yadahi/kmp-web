@@ -1,0 +1,13 @@
+.footer {
+  &__navigation {
+    grid-area: footer-info;
+    display: flex;
+    flex-direction: column;
+  }
+  &__address {
+    grid-area: footer-address;
+  }
+  &__icons {
+    grid-area: footer-icons;
+  }
+}

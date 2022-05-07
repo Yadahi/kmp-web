@@ -37,4 +37,20 @@
     padding: 2rem 0;
     background-color: map-get($main-colors, tertiary);
   }
+  &__navigation {
+    padding: 0 1rem;
+  }
+  &__footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+    grid-template-areas:
+      "footer-info"
+      "footer-address"
+      "footer-icons";
+    @include breakpoint(small) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "footer-info footer-address ... footer-icons";
+    }
+  }
 }
