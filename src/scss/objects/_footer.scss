@@ -3,19 +3,39 @@
     grid-area: footer-nav;
     display: flex;
     flex-direction: column;
+    line-height: 1.5;
+    &--link {
+      a {
+        text-decoration: none;
+        color: $eerie-black;
+
+        &:hover {
+          color: $red;
+        }
+        &:active {
+          color: $tertiary;
+        }
+      }
+    }
   }
+
   &__address {
     grid-area: footer-address;
+    line-height: 1.5;
   }
+
   &__info {
     grid-area: footer-info;
+    @include breakpoint(small) {
+      text-align: center;
+    }
   }
+
   &__icons {
     grid-area: footer-icons;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     .logo__footer {
       display: flex;
     }
@@ -28,9 +48,13 @@
       }
       i {
         color: $red;
+        &:hover {
+          color: $primary;
+        }
       }
     }
     @include breakpoint(small) {
+      // align-items: flex-end;
       .logo__footer {
         justify-content: flex-end;
       }
