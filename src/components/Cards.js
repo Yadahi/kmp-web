@@ -12,19 +12,21 @@ function Cards() {
       <h3 className="text--color--white text--center margin-top-1 margin-bottom-1">
         Projekty
       </h3>
-      <div className="cards">
-        {articles.slice(0, 3).map((article) => {
-          return (
-            <Card
-              key={article.id}
-              image={article.image}
-              text={article.text}
-              path={`/projects/${article.id}`}
-              title={article.title}
-              size="small"
-            />
-          );
-        })}
+      <div className="layout__inner">
+        <div className="cards">
+          {articles.slice(0, 3).map((article) => {
+            return (
+              <Card
+                key={article.id}
+                image={article.image}
+                text={article.text}
+                path={`/projects/${article.id}`}
+                title={article.title}
+                size="small"
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

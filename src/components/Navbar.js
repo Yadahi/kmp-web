@@ -28,7 +28,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar__container">
+        <div className="navbar__container layout__inner">
           {/* navigation logo */}
           <Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
             <img src={logo} alt="logo" style={{ marginRight: "10" }} />

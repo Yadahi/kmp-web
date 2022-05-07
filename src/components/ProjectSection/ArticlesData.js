@@ -41,7 +41,7 @@ export const articles = [
   {
     id: 2,
     title: "UrbanVčela",
-    text: "V našom OZku máme vášnivých milovnikov včiel, a tak sme sa proste museli začať venovať aj tejto činnosti. Skúsili sme dať dva úľe k spriaznenému Kinu Úsmev, avšak dvorček za budovou nebol ideálnym miestom pre tieto zázračné stvorenia. Presunuli sme ich tak na záhradku na Kalvárii, kde pokračujú vo svojom spokojnom živote. Časom by sme radi včelárstvo zaradili do našej osvetovej činnosti a možno tiež ponúkali apiterapiu.",
+    text: `V našom OZku máme vášnivých milovnikov včiel, a tak sme sa proste museli začať venovať aj tejto činnosti. Skúsili sme dať dva úľe k spriaznenému Kinu Úsmev, avšak dvorček za budovou nebol ideálnym miestom pre tieto zázračné stvorenia. Presunuli sme ich tak na záhradku na Kalvárii, kde pokračujú vo svojom spokojnom živote. Časom by sme radi včelárstvo zaradili do našej osvetovej činnosti a možno tiež ponúkali apiterapiu.`,
     image: "../../images/aboutus.png",
   },
   {
