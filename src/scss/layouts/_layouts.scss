@@ -59,12 +59,16 @@
   &__section {
     display: grid;
     grid-auto-columns: 1fr;
+    gap: 1rem;
     grid-template-areas:
       "section-left"
       "section-right";
     @include breakpoint(small) {
       grid-template-areas: "section-left section-right";
       gap: 2rem;
+      &--reverse {
+        grid-template-areas: "section-right section-left";
+      }
     }
   }
   &__partners {

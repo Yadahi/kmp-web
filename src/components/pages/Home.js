@@ -12,11 +12,13 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <SectionLayout {...homeObjAbout}></SectionLayout>
-      <InfoSection {...homeObjAbout} />
+      <SectionLayout {...homeObjAbout} />
       <Cards />
+      <SectionLayout {...homeObjHire} reverse={true} />
+      <SectionLayout {...homeObjDonate} />
+      {/* <InfoSection {...homeObjAbout} />
       <InfoSection {...homeObjHire} />
-      <InfoSection {...homeObjDonate} />
+      <InfoSection {...homeObjDonate} /> */}
     </>
   );
 }

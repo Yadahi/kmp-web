@@ -1,8 +1,16 @@
 .section {
   &__left {
     grid-area: section-left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
   }
   &__right {
     grid-area: section-right;
+    display: none;
+    @include breakpoint(small) {
+      display: inline-block;
+    }
   }
 }
