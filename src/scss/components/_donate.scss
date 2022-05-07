@@ -1,0 +1,26 @@
+.donate {
+  &__left,
+  &__right {
+    padding: 1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      a {
+        color: $red;
+        &:hover {
+          color: map-get($tints-colors, tertiary-300);
+        }
+      }
+    }
+  }
+  &__left {
+  }
+  &__right {
+  }
+  &__img {
+    border-radius: 1.5rem;
+  }
+}
