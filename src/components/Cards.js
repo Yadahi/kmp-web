@@ -8,10 +8,9 @@ function Cards() {
   }
   return (
     <div className="layout__cards">
-      {/* TODO align center heading */}
-      <h3 className="text--color--white text--center margin-top-1 margin-bottom-1">
+      <h2 className="text--color--white text--center margin-top-1 margin-bottom-1">
         Projekty
-      </h3>
+      </h2>
       <div className="layout__inner">
         <div className="cards">
           {articles.slice(0, 3).map((article) => {
