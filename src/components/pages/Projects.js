@@ -2,7 +2,7 @@ import React from "react";
 
 import productImg from "../../images/girl.jpg";
 import Card from "../Card";
-import BreakerElement from "../BreakerIcon";
+import BreakerElement from "../objects/BreakerIcon";
 import { articles } from "../ProjectSection/ArticlesData";
 
 function Projects() {

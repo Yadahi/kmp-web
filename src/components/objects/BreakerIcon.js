@@ -1,4 +1,4 @@
-import { ReactComponent as BreakerIcon } from "../images/icons/breaker.svg";
+import { ReactComponent as BreakerIcon } from "../../images/icons/breaker.svg";
 
 import React from "react";
 

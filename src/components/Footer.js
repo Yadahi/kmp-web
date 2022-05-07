@@ -1,9 +1,6 @@
-import logo from "../images/logo.svg";
-import text from "../images/text.svg";
-
 import React from "react";
-import { Button } from "./Button";
-// import './Footer.css';
+import { LogoIcon, TextIcon } from "./objects/LogoIcons";
+
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -24,14 +21,14 @@ function Footer() {
         <p>IČO: 51278561</p>
       </div>
       <div className="footer__icons">
-        <div className="social-media-wrap">
-          <div className="footer-logo">
+        <div className="">
+          <div className="">
             <Link to="/" className="social-logo">
-              <img src={logo} alt="logo" />
-              <img src={text} alt="text" />
+              <LogoIcon />
+              <TextIcon />
             </Link>
           </div>
-          <div className="social-icons">
+          <div className="">
             <Link
               className="social-icon-link facebook"
               to="/"
@@ -71,7 +68,7 @@ function Footer() {
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin" />
-            </Link>{" "}
+            </Link>
           </div>
         </div>
       </div>

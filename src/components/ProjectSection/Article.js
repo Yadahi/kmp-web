@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import ErrorPage from "../pages/ErrorPage";
 import { articles } from "./ArticlesData";
 import productImg from "../../images/girl.jpg";
-import BreakerElement from "../BreakerIcon";
+import BreakerElement from "../objects/BreakerIcon";
 import { SRLWrapper } from "simple-react-lightbox";
 import Gallery from "../Gallery";
 import Cards from "../Cards";

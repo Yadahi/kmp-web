@@ -3,7 +3,7 @@ import React from "react";
 import IntroSection from "../IntroSection/IntroElement";
 import DescriptionSection from "../IntroSection/IntroDescElement";
 import IntroValues from "../IntroSection/IntroValues";
-import BreakerElement from "../BreakerIcon";
+import BreakerElement from "../objects/BreakerIcon";
 
 function About() {
   return (
