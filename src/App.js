@@ -9,20 +9,23 @@ import Projects from "./components/pages/Projects";
 import SignUp from "./components/pages/SignUp.js";
 import ErrorPage from "./components/pages/ErrorPage.js";
 import Article from "./components/ProjectSection/Article.js";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about" exact element={<About />} />
-          <Route path="/projects" exact element={<Projects />} />
-          <Route path="/projects/:id" exact element={<Article />} />
-          <Route path="/sign-up" exact element={<SignUp />} />
-          <Route path="*" exact element={<ErrorPage />} />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/about" exact element={<About />} />
+            <Route path="/projects" exact element={<Projects />} />
+            <Route path="/projects/:id" exact element={<Article />} />
+            <Route path="/sign-up" exact element={<SignUp />} />
+            <Route path="*" exact element={<ErrorPage />} />
+          </Routes>
+        </ScrollToTop>
         <Footer />
       </Router>
     </>
