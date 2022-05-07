@@ -1,0 +1,8 @@
+.section {
+  &__left {
+    grid-area: section-left;
+  }
+  &__right {
+    grid-area: section-right;
+  }
+}
