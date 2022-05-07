@@ -57,4 +57,17 @@
         "footer-info footer-info footer-info footer-info";
     }
   }
+
+  &__section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "section-left"
+      "section-right";
+    @include breakpoint(small) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "section-left section-right";
+      gap: 2rem;
+    }
+  }
 }
