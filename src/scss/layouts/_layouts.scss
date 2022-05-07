@@ -58,6 +58,7 @@
 
   &__section {
     display: grid;
+    grid-auto-columns: 1fr;
     grid-template-areas:
       "section-left"
       "section-right";
