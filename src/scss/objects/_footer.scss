@@ -22,6 +22,17 @@
   &__address {
     grid-area: footer-address;
     line-height: 1.5;
+    a {
+      text-decoration: none;
+      color: $eerie-black;
+
+      &:hover {
+        color: $red;
+      }
+      &:active {
+        color: $tertiary;
+      }
+    }
   }
 
   &__info {

@@ -26,6 +26,9 @@ function Footer() {
         <p>Moldavská 1164/9</p>
         <p>04011 Košice</p>
         <p>IČO: 51278561</p>
+        <a href="mailto:kedmozempomozem.oz@gmail.com">
+          kedmozempomozem.oz@gmail.com
+        </a>
       </div>
       <div className="footer__icons">
         <Link to="/" className="logo__footer">
@@ -34,46 +37,38 @@ function Footer() {
         </Link>
 
         <div className="social-icon">
-          <Link
+          <a
             className="social-icon__link facebook"
-            to="/"
+            href="https://www.facebook.com/ozkedmozempomozem/"
             target="_blank"
             aria-label="Facebook"
           >
             <i className="fab fa-facebook-f fa-lg" />
-          </Link>
-          <Link
+          </a>
+          {/* <a
             className="social-icon__link instagram"
-            to="/"
+            href="/"
             target="_blank"
             aria-label="Instagram"
           >
             <i className="fab fa-instagram fa-lg" />
-          </Link>
-          <Link
+          </a> */}
+          <a
             className="social-icon__link youtube"
-            to="/"
+            href="https://www.youtube.com/channel/UCep8_UMzidsC4q8tG2Jk4nw"
             target="_blank"
             aria-label="Youtube"
           >
             <i className="fab fa-youtube fa-lg" />
-          </Link>
-          <Link
+          </a>
+          <a
             className="social-icon__link twitter"
-            to="/"
+            href="https://www.twitter.com/KPomozem"
             target="_blank"
             aria-label="Twitter"
           >
             <i className="fab fa-twitter fa-lg" />
-          </Link>
-          <Link
-            className="social-icon__link linkedin"
-            to="/"
-            target="_blank"
-            aria-label="LinkedIn"
-          >
-            <i className="fab fa-linkedin fa-lg" />
-          </Link>
+          </a>
         </div>
       </div>
       <div className="footer__info">
