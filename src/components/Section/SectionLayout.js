@@ -3,12 +3,12 @@ import SectionCardText from "../Section/SectionCardText";
 import SectionCardMedia from "./SectionCardMedia";
 
 function SectionLayout(props) {
-  const { reverse, img, ...textObj } = props;
+  const { reverse, img, bgColor, ...textObj } = props;
   console.log(img);
   console.log(textObj);
   return (
-    <div className="layout">
-      <div className="layout__inner">
+    <div className={`layout background--bg-tints--${bgColor}`}>
+      <div className="layout__inner padding-top-3 padding-bottom-3">
         <div
           className={`layout__section section ${
             reverse ? "layout__section--reverse" : ""

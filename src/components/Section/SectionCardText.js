@@ -7,6 +7,7 @@ function SectionCardText(props) {
     description,
     descriptionColor,
     headline: title,
+    headlineColor: titleColor = "",
     topLine: label,
     path,
   } = props;
@@ -17,7 +18,9 @@ function SectionCardText(props) {
       <div className="section__label">
         <h4>{label}</h4>
       </div>
-      <h2>{title}</h2>
+      <h2 className={`{${titleColor} ? text--color--${titleColor} : ''}`}>
+        {title}
+      </h2>
       <p
         className={`{${descriptionColor} ? text--color--${descriptionColor} : ''}`}
       >

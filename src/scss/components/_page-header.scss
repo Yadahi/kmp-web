@@ -1,7 +1,15 @@
 .page-header,
-.footer {
+.footer,
+.background {
   &--bg-color {
     @each $color, $value in $main-colors {
+      &--#{$color} {
+        background-color: $value !important;
+      }
+    }
+  }
+  &--bg-tints {
+    @each $color, $value in $tints-colors {
       &--#{$color} {
         background-color: $value !important;
       }

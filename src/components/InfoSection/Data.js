@@ -7,13 +7,12 @@ export const homeObjAbout = {
   buttonLabel: "Viacej",
   img: "../../images/hp-aboutus.png",
   alt: "Hand",
-  color: "bg-white",
-  headlineColor: "font-blue",
-  descriptionColor: "font-green",
+  headlineColor: "",
+  descriptionColor: "tertiary",
   path: "/o-nas",
 };
 
-export const homeObjHire = {
+export const homeObjContact = {
   id: 1,
   topLine: "Kontakt",
   headline: "Keď môžem ozvi sa",
@@ -23,8 +22,7 @@ export const homeObjHire = {
   img: "../../images/hp-girl.png",
   imgSize: "img-size",
   alt: "deliver",
-  color: "bg-white",
-  headlineColor: "font-blue",
+  headlineColor: "white",
   descriptionColor: "tertiary",
   path: "/kontakt",
 };
@@ -40,8 +38,7 @@ export const homeObjDonate = {
   imgSize: "img-size",
   imgBg: "../../",
   alt: "donate",
-  color: "bg-green",
-  headlineColor: "font-blue",
-  descriptionColor: "font-white",
+  headlineColor: "",
+  descriptionColor: "tertiary",
   path: "/podpor-nas",
 };
