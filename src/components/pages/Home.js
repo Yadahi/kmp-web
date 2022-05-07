@@ -12,10 +12,10 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <SectionLayout {...homeObjAbout} />
+      <SectionLayout {...homeObjAbout} reverse={true} />
       <Cards />
-      <SectionLayout {...homeObjDonate} reverse={true} />
-      <SectionLayout {...homeObjContact} bgColor="red-400" />
+      <SectionLayout {...homeObjDonate} />
+      <SectionLayout {...homeObjContact} bgColor="red-400" reverse={true} />
     </>
   );
 }

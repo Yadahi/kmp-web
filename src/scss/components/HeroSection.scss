@@ -1,3 +1,24 @@
+.hero-section {
+  &__left {
+    grid-area: hero-section-left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    p {
+      color: $white;
+    }
+  }
+  &__right {
+    grid-area: hero-section-right;
+  }
+  &__title {
+    line-height: 1.5;
+    color: $white;
+    span {
+    }
+  }
+}
 .hero-container {
   display: flex;
   flex-direction: column;
