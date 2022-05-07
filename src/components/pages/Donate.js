@@ -68,6 +68,37 @@ function Donate() {
               </h3>
             </div>
           </div>
+          <BreakerElement />
+          <h2 className="text--center text--color--tertiary">
+            Ďakujeme &#10084;
+          </h2>
+          <div className="layout__partners partners margin-top-1">
+            <img
+              src="../../images/partnery-1.png"
+              alt=""
+              className="partners__img img-1"
+            />
+            <img
+              src="../../images/partnery-2.png"
+              alt=""
+              className="partners__img img-2"
+            />
+            <img
+              src="../../images/partnery-3.png"
+              alt=""
+              className="partners__img img-3"
+            />
+            <img
+              src="../../images/partnery-4.jpg"
+              alt=""
+              className="partners__img img-4"
+            />
+            <img
+              src="../../images/partnery-5.jpg"
+              alt=""
+              className="partners__img img-5"
+            />
+          </div>
         </div>
       </div>
     </>

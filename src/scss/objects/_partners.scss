@@ -1,0 +1,28 @@
+.partners {
+  padding: 1rem 0;
+  &__img {
+    // flex-basis: 25%;
+    // max-height: 3.5rem;
+
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+  .img-1 {
+    grid-area: img-1;
+  }
+  .img-2 {
+    grid-area: img-2;
+  }
+  .img-3 {
+    grid-area: img-3;
+  }
+  .img-4 {
+    grid-area: img-4;
+  }
+  .img-5 {
+    grid-area: img-5;
+  }
+}
