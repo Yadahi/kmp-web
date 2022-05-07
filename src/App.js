@@ -19,10 +19,11 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" exact element={<Home />} />
-            <Route path="/about" exact element={<About />} />
-            <Route path="/projects" exact element={<Projects />} />
-            <Route path="/projects/:id" exact element={<Article />} />
-            <Route path="/sign-up" exact element={<SignUp />} />
+            <Route path="/o-nas" exact element={<About />} />
+            <Route path="/projekty" exact element={<Projects />} />
+            <Route path="/projekty/:id" exact element={<Article />} />
+            <Route path="/podpor-nas" exact element={<SignUp />} />
+            <Route path="/kontakt" exact element={<SignUp />} />
             <Route path="*" exact element={<ErrorPage />} />
           </Routes>
         </ScrollToTop>

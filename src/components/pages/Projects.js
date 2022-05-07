@@ -32,7 +32,7 @@ function Projects() {
                 key={article.id}
                 image={productImg}
                 text={article.text}
-                path={`/projects/${article.id}`}
+                path={`/projekty/${article.id}`}
                 title={article.title}
               />
             );

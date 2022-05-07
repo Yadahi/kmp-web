@@ -18,7 +18,7 @@ function Cards() {
               src='images/img-4.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
-              path='/products'
+              path='/projekty'
             />
             <CardItems
               src='images/img-8.jpg'

@@ -29,7 +29,7 @@ const InfoSection = ({
                   {description}
                 </div>
                 <div className="btn-wrap">
-                  <Button path="/about">{buttonLabel}</Button>
+                  <Button path="/o-nas">{buttonLabel}</Button>
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@ function Cards() {
                 key={article.id}
                 image={article.image}
                 text={article.text}
-                path={`/projects/${article.id}`}
+                path={`/projekty/${article.id}`}
                 title={article.title}
                 size="small"
               />

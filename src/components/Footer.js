@@ -8,16 +8,16 @@ function Footer() {
     <div className="layout__footer footer footer--bg-color--secondary">
       <div className="footer__navigation ">
         <span className="footer__navigation--link">
-          <Link to="/about">O nás</Link>
+          <Link to="/o-nas">O nás</Link>
         </span>
         <span className="footer__navigation--link">
-          <Link to="/projects">Projekty</Link>
+          <Link to="/projekty">Projekty</Link>
         </span>
         <span className="footer__navigation--link">
-          <Link to="/">Objednaj</Link>
+          <Link to="/podpor-nas">Podpor nás</Link>
         </span>
         <span className="footer__navigation--link">
-          <Link to="/">Podpor nás</Link>
+          <Link to="/kontakt">Kontakt</Link>
         </span>
       </div>
       <div className="footer__address">

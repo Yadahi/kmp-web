@@ -45,7 +45,7 @@ function Navbar() {
               <ul className={click ? "navbar__list active" : "navbar__list"}>
                 <li className="navbar__item">
                   <Link
-                    to="/about"
+                    to="/o-nas"
                     className="navbar__link"
                     onClick={closeMobileMenu}
                   >
@@ -54,7 +54,7 @@ function Navbar() {
                 </li>
                 <li className="navbar__item">
                   <Link
-                    to="/projects"
+                    to="/projekty"
                     className="navbar__link"
                     onClick={closeMobileMenu}
                   >
@@ -63,20 +63,20 @@ function Navbar() {
                 </li>
                 <li className="navbar__item">
                   <Link
-                    to="/sign-up"
-                    className="navbar__link"
-                    onClick={closeMobileMenu}
-                  >
-                    Objednaj
-                  </Link>
-                </li>
-                <li className="navbar__item">
-                  <Link
-                    to="/sign-up"
+                    to="/podpor-nas"
                     className="navbar__link"
                     onClick={closeMobileMenu}
                   >
                     Podpor nás
+                  </Link>
+                </li>
+                <li className="navbar__item">
+                  <Link
+                    to="/kontakt"
+                    className="navbar__link"
+                    onClick={closeMobileMenu}
+                  >
+                    Kontakt
                   </Link>
                 </li>
               </ul>
