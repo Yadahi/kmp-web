@@ -31,11 +31,9 @@
   &__image {
     border-radius: 1rem;
     transition: all 0.5s ease-out;
-    & > img {
-      height: auto;
-      width: 100%;
-      object-fit: cover;
-    }
+    height: auto;
+    width: 100%;
+    object-fit: cover;
     &--small {
     }
   }

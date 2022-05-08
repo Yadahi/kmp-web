@@ -1,5 +1,3 @@
-import "./IntroDescElement.scss";
-
 import React from "react";
 
 function DescriptionSection(props) {

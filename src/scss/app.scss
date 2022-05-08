@@ -6,13 +6,9 @@
 
 @import "./src/scss/Variables.scss";
 @import "./src/scss/wrapper.scss";
-// @import "./src/scss/page-elements.scss";
-@import "./components/_cards.scss";
 @import "./components/hero-section.scss";
 
 @import "./src/components/IntroSection/IntroElement.scss";
-@import "./src/components/IntroSection/IntroDescElement.scss";
-@import "./src/components/InfoSection/InfoElements.scss";
 
 // new scss styles
 @import "./utils/text-color.scss";
@@ -33,6 +29,7 @@
 @import "./components/contact.scss";
 @import "./components/donate.scss";
 @import "./components/aboutus.scss";
+@import "./components/_cards.scss";
 
 @import "./objects/page-header";
 @import "./objects/breaker-element.scss";
