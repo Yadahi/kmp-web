@@ -6,7 +6,7 @@
     justify-content: center;
     gap: 2rem;
     p {
-      color: $white;
+      color: $gl-white;
     }
   }
   &__right {
@@ -14,9 +14,8 @@
   }
   &__title {
     line-height: 1.5;
-    color: $white;
+    color: $gl-white;
     span {
-      // color: map-get($tints-colors, red-900);
       color: $tertiary;
     }
   }

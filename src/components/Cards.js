@@ -8,7 +8,7 @@ function Cards() {
   }
   return (
     <div className="layout__cards">
-      <h2 className="text--color--white text--center margin-top-1 margin-bottom-1">
+      <h2 className="text--color--gl-white text--center margin-top-1 margin-bottom-1">
         Projekty
       </h2>
       <div className="layout__inner">

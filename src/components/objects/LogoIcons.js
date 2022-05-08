@@ -3,7 +3,7 @@ import { ReactComponent as LogoSvg } from "../../images/icons/logo.svg";
 
 import React from "react";
 
-function LogoIcon({ color = "white" }) {
+function LogoIcon({ color = "gl-white" }) {
   return (
     <div className={`logo-icon--color--${color}`}>
       <LogoSvg />
@@ -11,7 +11,7 @@ function LogoIcon({ color = "white" }) {
   );
 }
 
-function TextIcon({ color = "white" }) {
+function TextIcon({ color = "gl-white" }) {
   return (
     <div className={`logo-icon--color--${color}`}>
       <TextSvg />

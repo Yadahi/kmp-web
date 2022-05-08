@@ -7,7 +7,7 @@
   text-decoration: none;
   color: $global-color;
   padding: 2rem 1rem;
-  border: 2px solid map-get($tints-colors, red-900);
+  border: 2px solid map-get($tints-colors, gl-red-900);
   border-radius: 1rem;
   transition: transform 0.5s ease-out;
   cursor: pointer;
@@ -16,7 +16,7 @@
   }
   &:hover {
     // transform: scale(1.02);
-    background-color: map-get($tints-colors, red-50);
+    background-color: map-get($tints-colors, gl-red-50);
     box-shadow: $global-box-shadow-2;
     .card__image {
       // TODO add transition when removing the cursor

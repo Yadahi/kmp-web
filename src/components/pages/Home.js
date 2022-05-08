@@ -17,9 +17,9 @@ function Home() {
       <SectionLayout {...homeObjDonate} />
       <SectionLayout
         {...homeObjContact}
-        bgColor="red-400"
+        bgColor="gl-red-400"
         reverse={true}
-        btnColor="red"
+        btnColor="gl-red"
       />
     </>
   );

@@ -32,8 +32,8 @@ function Footer() {
       </div>
       <div className="footer__icons">
         <Link to="/" className="logo__footer">
-          <LogoIcon color="red" />
-          <TextIcon color="red" />
+          <LogoIcon color="gl-red" />
+          <TextIcon color="gl-red" />
         </Link>
 
         <div className="social-icon">

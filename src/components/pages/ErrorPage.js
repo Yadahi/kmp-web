@@ -4,7 +4,7 @@ function ErrorPage() {
   return (
     <>
       <div className="layout">
-        <h1 className="h1 page-header page-header--bg-color--red page-header--color--white">
+        <h1 className="h1 page-header page-header--bg-color--gl-red page-header--color--gl-white">
           Error Page
         </h1>
       </div>

@@ -7,14 +7,14 @@
 
   &--secondary {
     &:hover {
-      background-color: map-get($tints-colors, red-400);
-      color: $white;
+      background-color: map-get($tints-colors, gl-red-400);
+      color: $gl-white;
     }
   }
   &--red {
     &:hover {
       background-color: map-get($tints-colors, primary-300);
-      color: $white;
+      color: $gl-white;
     }
   }
 }

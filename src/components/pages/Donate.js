@@ -7,7 +7,7 @@ function Donate() {
   return (
     <>
       <div className="layout">
-        <h1 className="h1 page-header page-header--bg-color--red text--color--white">
+        <h1 className="h1 page-header page-header--bg-color--gl-red text--color--gl-white">
           Podpor nás
         </h1>
         <div className="layout__inner">
@@ -60,12 +60,12 @@ function Donate() {
                 <p>
                   <strong>Číslo účtu:</strong>
                 </p>
-                <h4 className="text--color--red">
+                <h4 className="text--color--gl-red">
                   IBAN: SK19 8330 0000 0027 0165 8592
                 </h4>
                 <p>&nbsp;</p>
                 <p>
-                  Venujte nám <span className="text--color--red">2%</span> z
+                  Venujte nám <span className="text--color--gl-red">2%</span> z
                   dane
                 </p>
               </div>

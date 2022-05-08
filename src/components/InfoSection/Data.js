@@ -22,7 +22,7 @@ export const homeObjContact = {
   img: "../../images/hp-girl.png",
   imgSize: "img-size",
   alt: "deliver",
-  headlineColor: "white",
+  headlineColor: "gl-white",
   descriptionColor: "tertiary",
   path: "/kontakt",
 };

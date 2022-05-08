@@ -9,7 +9,7 @@ function Projects() {
   return (
     <>
       <div className="layout">
-        <h1 className="h1 page-header page-header--bg-color--tertiary page-header--color--white">
+        <h1 className="h1 page-header page-header--bg-color--tertiary page-header--color--gl-white">
           Projekty
         </h1>
         <div className="layout__inner">

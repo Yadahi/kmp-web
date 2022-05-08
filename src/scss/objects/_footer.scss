@@ -10,7 +10,7 @@
         color: $eerie-black;
 
         &:hover {
-          color: $red;
+          color: $gl-red;
         }
         &:active {
           color: $tertiary;
@@ -24,7 +24,7 @@
     line-height: 1.5;
     a {
       text-decoration: none;
-      color: $red;
+      color: $gl-red;
 
       &:hover {
         color: $eerie-black;
@@ -60,7 +60,7 @@
         }
       }
       i {
-        color: $red;
+        color: $gl-red;
         &:hover {
           color: $primary;
         }

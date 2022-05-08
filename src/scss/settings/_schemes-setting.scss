@@ -5,8 +5,8 @@ $main-colors: map-merge(
     secondary: hsl(52, 93%, 67%, 1),
     tertiary: hsl(213, 67%, 32%, 1),
     eerie-black: hsla(216, 9%, 10%, 1),
-    white: hsla(255, 255, 255, 1),
-    red: hsla(358, 74%, 60%, 1),
+    gl-white: hsla(255, 255, 255, 1),
+    gl-red: hsla(358, 74%, 60%, 1),
   ),
   $main-colors
 );
@@ -31,12 +31,12 @@ $tints-colors: map-merge(
     tertiary-200: hsl(213, 50%, 62%, 1),
     tertiary-100: hsl(213, 50%, 72%, 1),
     tertiary-50: hsl(213, 50%, 82%, 1),
-    red-900: hsla(358, 74%, 60%, 1),
-    red-400: hsla(358, 74%, 70%, 1),
-    red-300: hsla(358, 50%, 70%, 1),
-    red-200: hsla(358, 50%, 80%, 1),
-    red-100: hsla(358, 50%, 90%, 1),
-    red-50: hsla(358, 50%, 95%, 1),
+    gl-red-900: hsla(358, 74%, 60%, 1),
+    gl-red-400: hsla(358, 74%, 70%, 1),
+    gl-red-300: hsla(358, 50%, 70%, 1),
+    gl-red-200: hsla(358, 50%, 80%, 1),
+    gl-red-100: hsla(358, 50%, 90%, 1),
+    gl-red-50: hsla(358, 50%, 95%, 1),
   ),
   $tints-colors
 );
