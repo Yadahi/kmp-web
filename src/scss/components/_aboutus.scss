@@ -1,9 +1,12 @@
 .about {
   &__header {
-    &--img {
-      width: 100%;
-      object-fit: cover;
-      max-height: calc(100px + 10vw);
-    }
+  }
+  &__img {
+    width: 100%;
+    object-fit: cover;
+    max-height: calc(100px + 10vw);
+  }
+  &__description {
+    // padding: 1rem 0;
   }
 }
