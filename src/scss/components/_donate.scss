@@ -15,12 +15,13 @@
         }
       }
     }
+    img {
+      max-height: 15rem;
+      object-fit: contain;
+    }
   }
   &__left {
   }
   &__right {
-  }
-  &__img {
-    border-radius: 1.5rem;
   }
 }
