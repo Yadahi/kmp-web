@@ -1,5 +1,14 @@
 .breaker-element {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 0.5rem;
+  svg {
+    flex: 0 1 100px;
+  }
+  @include breakpoint(small) {
+    padding: 1rem;
+    svg {
+      flex-basis: 150px;
+    }
+  }
 }
