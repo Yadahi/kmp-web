@@ -49,7 +49,22 @@ function Contact() {
               </div>
             </div>
           </div>
-          <BreakerElement />
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Moldavsk%C3%A1%209%20%20040%2011%20Ko%C5%A1ice&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe>
+              <a href="https://fmovies-online.net"></a>
+              <br />
+              <a href="https://www.embedgooglemap.net"></a>
+            </div>
+          </div>
+          {/* <BreakerElement /> */}
         </div>
       </div>
     </>

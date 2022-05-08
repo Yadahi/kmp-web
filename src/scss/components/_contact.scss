@@ -1,5 +1,7 @@
 .contact {
   justify-items: center;
+  background-color: map-get($alpha-colors, secondary-alpha-20);
+  padding: 1rem 0;
   &__address {
   }
   &__media {
