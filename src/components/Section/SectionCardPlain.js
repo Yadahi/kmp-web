@@ -1,7 +1,6 @@
 import React from "react";
 
 function SectionCardPlain(props) {
-  console.log(props);
   const { description } = props;
   return (
     <>

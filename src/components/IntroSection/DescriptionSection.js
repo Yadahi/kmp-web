@@ -2,8 +2,6 @@ import React from "react";
 
 function DescriptionSection(props) {
   const { intro, introEnglish } = props;
-  console.log(intro);
-  console.log(introEnglish);
   return (
     <div className="about__header">
       <img class="about__img" src="../../images/aboutus.png" />

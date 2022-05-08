@@ -9,10 +9,8 @@ import SectionCardMedia from "../Section/SectionCardMedia";
 import { contentData } from "../IntroSection/ContentData";
 
 function About() {
-  console.log(contentData);
   const { intro, introEnglish } = contentData;
   const descData = { intro, introEnglish };
-  console.log(descData);
   return (
     <>
       <div className="layout">
