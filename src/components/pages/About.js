@@ -1,12 +1,16 @@
 import React from "react";
 
 import IntroSection from "../IntroSection/IntroElement";
-import DescriptionSection from "../IntroSection/IntroDescElement";
+import DescriptionSection from "../IntroSection/DescriptionSection";
 import IntroValues from "../IntroSection/IntroValues";
 import BreakerElement from "../objects/BreakerIcon";
 import SectionCardPlain from "../Section/SectionCardPlain";
+import SectionCardMedia from "../Section/SectionCardMedia";
+import { contentData } from "../IntroSection/ContentData";
 
 function About() {
+  console.log(contentData);
+  const { intro } = contentData;
   return (
     <>
       <div className="layout">
@@ -14,8 +18,8 @@ function About() {
           Keď môžem predstavím sa
         </h1>
         <div className="layout__inner">
-          <SectionCardPlain />
-          <DescriptionSection />
+          <DescriptionSection {...intro} />
+
           <BreakerElement />
           <IntroValues />
           <BreakerElement />

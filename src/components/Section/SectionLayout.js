@@ -3,7 +3,7 @@ import SectionCardText from "../Section/SectionCardText";
 import SectionCardMedia from "./SectionCardMedia";
 
 function SectionLayout(props) {
-  const { reverse, img, bgColor, ...textObj } = props;
+  const { reverse, img, bgColor = "white", ...textObj } = props;
   console.log(img);
   console.log(textObj);
   return (
