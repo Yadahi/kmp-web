@@ -7,7 +7,7 @@ export const Button = ({ path = "/", label, color = "secondary" }) => {
     <button
       className={`button button--${color}`}
       onClick={() => {
-        navigate("/o-nas");
+        navigate(path);
       }}
     >
       {label}
