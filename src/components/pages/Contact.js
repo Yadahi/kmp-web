@@ -10,15 +10,24 @@ function Contact() {
           Kontakt
         </h1>
         <div className="layout__inner">
-          <div className="layout__section contact">
-            <div className="contact_address">
-              <p>Keď môžem pomôžem</p>
+          <div className="layout__contact contact">
+            <h3 class="contact__title">Kde sídlíme</h3>
+            <div className="contact__address">
+              {/* <p>&nbsp;</p> */}
+              <p>
+                <strong>Keď môžem pomôžem</strong>
+              </p>
               <p>Moldavská 9</p>
               <p>040 11 Košice</p>
+              <p>&nbsp;</p>
               <p>IČO: 51278561</p>
               <p>DIČ: 2120949556</p>
             </div>
             <div className="contact__media">
+              <span>Email: </span>
+              <a href="mailto:kedmozempomozem.oz@gmail.com">
+                kedmozempomozem.oz@gmail.com
+              </a>
               <div className="footer__icons">
                 <div className="social-icon">
                   <a

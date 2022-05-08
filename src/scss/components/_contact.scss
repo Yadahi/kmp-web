@@ -1,9 +1,25 @@
 .contact {
-  justify-items: center;
+  // justify-items: center;
   background-color: map-get($alpha-colors, secondary-alpha-20);
-  padding: 1rem 0;
+  padding: 2rem;
   &__address {
+    grid-area: contact-address;
   }
   &__media {
+    grid-area: contact-media;
+    .social-icon {
+      justify-content: flex-start !important;
+    }
+    a {
+      color: $red;
+      text-decoration: none;
+      &:hover {
+        color: $eerie-black;
+      }
+    }
+  }
+  &__title {
+    grid-area: contact-title;
+    color: $tertiary;
   }
 }

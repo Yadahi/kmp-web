@@ -72,6 +72,22 @@
       }
     }
   }
+  &__contact {
+    display: grid;
+    grid-auto-columns: 1fr;
+
+    gap: 1rem;
+    grid-template-areas:
+      "contact-title"
+      "contact-address"
+      "contact-media";
+    @include breakpoint(small) {
+      grid-template-areas:
+        "contact-title contact-title"
+        "contact-address contact-media";
+      // gap: 2rem;
+    }
+  }
   &__partners {
     display: grid;
     grid-auto-rows: 10rem auto;
