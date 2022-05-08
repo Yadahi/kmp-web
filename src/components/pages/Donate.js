@@ -14,7 +14,7 @@ function Donate() {
           <h2 className="text--center text--color--tertiary">
             Ako nás môžete podporiť ?
           </h2>
-          <div className="layout__section donate">
+          <div className="layout__donate donate">
             <div className="donate__left">
               <p>
                 Zapojte sa do našich <Link to="/projekty"> akcií</Link> alebo sa
@@ -27,15 +27,19 @@ function Donate() {
                 </a>
               </p>
             </div>
-            <div className="donate__right">
-              <img src="../../images/img-donate.png " alt="" />
+            <div className="donate__right donate__img">
+              <img
+                src="../../images/img-donate.png "
+                alt=""
+                class="donate__img"
+              />
             </div>
           </div>
         </div>
         <div className="layout background--bg-tints--primary-200">
           <div className="layout__inner">
-            <div className="layout__section donate">
-              <div className="donate__left">
+            <div className="layout__donate donate">
+              <div className="donate__left donate__img">
                 <img
                   className="donate__img"
                   src="../../images/img-donate-second.png "

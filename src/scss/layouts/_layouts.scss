@@ -59,7 +59,6 @@
   &__section {
     display: grid;
     grid-auto-columns: 1fr;
-
     gap: 1rem;
     grid-template-areas:
       "section-left"
@@ -70,6 +69,12 @@
       &--reverse {
         grid-template-areas: "section-right section-left";
       }
+    }
+  }
+  &__donate {
+    @extend .layout__section;
+    @media (max-width: 480px) {
+      gap: 0;
     }
   }
   &__contact {
@@ -90,8 +95,9 @@
   }
   &__partners {
     display: grid;
-    grid-auto-rows: 10rem auto;
+    grid-auto-rows: 6rem auto;
     grid-auto-columns: 1fr;
+    align-items: center;
     gap: 2rem;
     grid-template-areas:
       "img-2 img-2 img-3 img-3 img-5 img-5"

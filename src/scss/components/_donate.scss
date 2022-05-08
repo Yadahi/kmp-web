@@ -20,8 +20,15 @@
       object-fit: contain;
     }
   }
+
   &__left {
   }
   &__right {
+  }
+  &__img {
+    display: none;
+    @include breakpoint(small) {
+      display: block;
+    }
   }
 }
