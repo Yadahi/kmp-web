@@ -7,7 +7,7 @@ function Contact() {
     <>
       <div className="layout">
         <h1 className="h1 page-header page-header--bg-color--secondary text--color--tertiary">
-          Kontakt
+          Keď môžeš ozvi sa
         </h1>
         <div className="layout__inner padding-bottom-1">
           <p>

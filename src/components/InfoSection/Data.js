@@ -15,9 +15,9 @@ export const homeObjAbout = {
 export const homeObjContact = {
   id: 1,
   topLine: "Kontakt",
-  headline: "Keď môžem ozvi sa",
+  headline: "Keď môžeš ozvi sa",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Nič nám nerobí väčšiu radosť než spoznávať nové dobré srdcia, ktoré majú ochotu robiť niečo pre druhých a teda i pre seba. Kľudne nám napíš a my sa ti ozveme.",
   buttonLabel: "Kontaktuj",
   img: "../../images/hp-girl.png",
   imgSize: "img-size",
