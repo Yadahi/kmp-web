@@ -9,11 +9,28 @@ function Contact() {
         <h1 className="h1 page-header page-header--bg-color--secondary text--color--tertiary">
           Kontakt
         </h1>
-        <div className="layout__inner">
+        <div className="layout__inner padding-bottom-1">
+          <p>
+            Na našich akciách sú vítaní všetci. Ak sa teda dozvieš o nejakej
+            našej akcii, prípadne uvidíš pozvánku tu na stránke alebo na
+            facebooku a máš chuť prísť, tak neváhaj a poď. Radi ťa spoznáme a
+            môžeš byť súčasťou našich akcií, nech sa týkajú čohokoľvek - športu,
+            prírody alebo kultúry. Najlepšie ak donesieš i kamarátov či rodinku.{" "}
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            Naša komunita má permanentne dvere otvorené a ak máš chuť a náladu
+            podeliť sa o svoj čas s nami, budeme radi. Ak máš nejaké nápady čo
+            by si chcel realizovať, prípadne vylepšiť naše akcie a pomôcť nám,
+            budeme ešte radšej. Nič nám nerobí väčšiu radosť než spoznávať nové
+            dobré srdcia, ktoré majú ochotu robiť niečo pre druhých a teda i pre
+            seba. Kľudne nám napíš a my sa ti ozveme.
+          </p>
+        </div>
+        <div className="layout__inner padding-top-1">
           <div className="layout__contact contact">
             <h3 class="contact__title">Kde sídlíme</h3>
             <div className="contact__address">
-              {/* <p>&nbsp;</p> */}
               <p>
                 <strong>Keď môžem pomôžem</strong>
               </p>
