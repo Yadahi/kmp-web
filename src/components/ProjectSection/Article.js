@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import ErrorPage from "../pages/ErrorPage";
 import { articles } from "./ArticlesData";
-import productImg from "../../images/girl.jpg";
 import BreakerElement from "../objects/BreakerIcon";
 import { SRLWrapper } from "simple-react-lightbox";
 import Gallery from "../Gallery";
@@ -26,10 +25,7 @@ function Article() {
       <div className="layout">
         <div className="layout__inner">
           <div className="layout__article article">
-            <img
-              className="article__header__img-main"
-              src={"../images/aboutus.png"}
-            />
+            <img className="article__header__img-main" src={gallery[0].image} />
             <h1 className="article__header__heading">{article.title}</h1>
             <div className="article__body">
               <p>{article.text}</p>
