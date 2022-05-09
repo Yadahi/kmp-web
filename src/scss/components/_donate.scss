@@ -16,7 +16,6 @@
       }
     }
     img {
-      max-height: 15rem;
       object-fit: contain;
     }
   }
@@ -30,5 +29,9 @@
     @include breakpoint(small) {
       display: block;
     }
+  }
+  &__annotation {
+    padding: 1rem;
+    padding-bottom: 0;
   }
 }
