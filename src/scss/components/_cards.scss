@@ -8,4 +8,10 @@
   @include breakpoint(medium) {
     flex-direction: row;
   }
+  &__title {
+    color: $gl-white !important;
+    &:hover {
+      color: $gl-red !important;
+    }
+  }
 }

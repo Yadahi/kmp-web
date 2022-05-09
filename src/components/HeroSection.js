@@ -1,12 +1,8 @@
 import React from "react";
 
-import { useNavigate } from "react-router-dom";
-import { Button } from "./Button";
-import heroImg from "../images/hero-section-img.png";
 import heroSectionImg from "../images/hero-section-boys-wave.png";
 
 function HeroSection() {
-  let navigate = useNavigate();
   return (
     <div className="layout background--bg-color--primary">
       <div className="layout__inner padding-top-3 padding-bottom-3">
@@ -22,11 +18,8 @@ function HeroSection() {
                 života.
               </strong>
             </p>
-            <Button path="/o-nas" label="Viacej" color="secondary" />
-
           </div>
           <div className="hero-section__right">
-            {/* <img src={heroImg} alt="hero" /> */}
             <img src={heroSectionImg} alt="hero" />
           </div>
         </div>

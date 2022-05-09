@@ -27,7 +27,7 @@ function SectionCardText(props) {
       >
         <strong>{description}</strong>
       </p>
-      <Button path={path} label={label} color={btnColor} />
+      <Button path={path} label={button} color={btnColor} />
     </>
   );
 }
