@@ -8,4 +8,10 @@
       }
     }
   }
+  &.big {
+    svg {
+      width: calc(50px + 3vw);
+      height: calc(50px + 3vw);
+    }
+  }
 }
