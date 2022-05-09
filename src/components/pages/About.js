@@ -4,7 +4,7 @@ import DescriptionSection from "../IntroSection/DescriptionSection";
 import BreakerElement from "../objects/BreakerIcon";
 import SectionCardPlain from "../Section/SectionCardPlain";
 import SectionCardMedia from "../Section/SectionCardMedia";
-import { contentData } from "../IntroSection/ContentData";
+import { contentData } from "../Data/ContentData";
 import Partners from "../Partners";
 
 function About() {

@@ -6,7 +6,7 @@ import {
   homeObjAbout,
   homeObjContact,
   homeObjDonate,
-} from "../InfoSection/Data";
+} from "../Data/SectionData";
 
 function Home() {
   return (
