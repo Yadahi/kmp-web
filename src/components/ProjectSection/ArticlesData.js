@@ -3,7 +3,6 @@ export const articles = [
     id: 0,
     title: "Keď možem športujem",
     text: `Pod týmto projektom si predstav pohyb, radosť, pohodu a inklúziu naraz. Kostrou projektu sú športovania pre deti a mládež zo znevýhodneného prostredia, na ktoré však majú dvere otvorené všetci a môžu tak týchto mladých spoznať. Dávame tak šancu na kvalitne strávený čas pre všetky zúčastnené skupiny. Samozrejme po každom športovaní nemôže chýbať Tlačovka, kde si pri občerstvení povieme o čom vlastne život je a či to vlastne vôbec vieme. Začať s projektom sme mohli vďaka štedrým nórskym fondom AFC Funds a Karpatskej nadácii, za čo im budeme navždy vďační.`,
-
     gallery: [
       {
         id: 0,
