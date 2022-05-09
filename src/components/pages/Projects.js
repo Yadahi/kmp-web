@@ -14,13 +14,13 @@ function Projects() {
         </h1>
         <div className="layout__inner">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Naša komunita je rôznorodá a rada sa venuje rozmanitým veciam, a
+            také sú i naše projekty. Prirodzene sa snažíme prepájať projekty pre
+            ľudí s činnosťami, ktoré sú nám srdce blízke, preto sa venujú
+            športu, sociálnym témam, prírode či kultúre. Niektoré projekty časom
+            zanikajú, aby dali priestor iným, niektoré sa darí pravidelne
+            udržiavať a rozvíjať. Budeme radi, ak sa do nich zapojíš aj ty (tu
+            by som dal odkaz na zapoj sa), akoukoľvek formou.
           </p>
         </div>
         <BreakerElement />
