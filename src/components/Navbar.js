@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { LogoIcon, TextIcon } from "./objects/LogoIcons";
 
 import logo from "../images/logo.svg";
 import text from "../images/text.svg";
@@ -32,8 +33,10 @@ function Navbar() {
           <div className="navbar__container ">
             {/* navigation logo */}
             <Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
-              <img src={logo} alt="logo" style={{ marginRight: "10" }} />
-              <img src={text} alt="text" />
+              <Link to="/" className="display-flex">
+                <LogoIcon />
+                <TextIcon />
+              </Link>
             </Link>
             {/* contains two components: button and menu */}
             <div className="navbar__menu">
