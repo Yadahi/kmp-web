@@ -20,7 +20,7 @@ function Cards() {
             return (
               <Card
                 key={article.id}
-                image={article.image}
+                image={article.gallery[0].image}
                 text={article.text}
                 path={`/projekty/${article.id}`}
                 title={article.title}
