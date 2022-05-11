@@ -162,53 +162,18 @@ export const articles = [
     gallery: [
       {
         id: 0,
-        name: "športujeme",
-        image: "../../images/project-sportujem/01.jpg",
+        name: "vcely",
+        image: "../../images/project-vcely/vcely-03.jpg",
       },
       {
         id: 1,
-        name: "športujeme",
-        image: "../../images/project-sportujem/02.jpg",
+        name: "vcely",
+        image: "../../images/project-vcely/vcely-02.jpg",
       },
       {
         id: 2,
-        name: "športujeme",
-        image: "../../images/project-sportujem/03.jpg",
-      },
-      {
-        id: 3,
-        name: "športujeme",
-        image: "../../images/project-sportujem/04.jpg",
-      },
-      {
-        id: 4,
-        name: "športujeme",
-        image: "../../images/project-sportujem/05.jpg",
-      },
-      {
-        id: 5,
-        name: "športujeme",
-        image: "../../images/project-sportujem/06.jpg",
-      },
-      {
-        id: 6,
-        name: "športujeme",
-        image: "../../images/project-sportujem/07.jpg",
-      },
-      {
-        id: 7,
-        name: "športujeme",
-        image: "../../images/project-sportujem/08.jpg",
-      },
-      {
-        id: 8,
-        name: "športujeme",
-        image: "../../images/project-sportujem/09.jpg",
-      },
-      {
-        id: 9,
-        name: "športujeme",
-        image: "../../images/project-sportujem/10.jpg",
+        name: "vcely",
+        image: "../../images/project-vcely/vcely-01.jpg",
       },
     ],
   },
@@ -221,52 +186,7 @@ export const articles = [
       {
         id: 0,
         name: "športujeme",
-        image: "../../images/project-sportujem/01.jpg",
-      },
-      {
-        id: 1,
-        name: "športujeme",
-        image: "../../images/project-sportujem/02.jpg",
-      },
-      {
-        id: 2,
-        name: "športujeme",
-        image: "../../images/project-sportujem/03.jpg",
-      },
-      {
-        id: 3,
-        name: "športujeme",
-        image: "../../images/project-sportujem/04.jpg",
-      },
-      {
-        id: 4,
-        name: "športujeme",
-        image: "../../images/project-sportujem/05.jpg",
-      },
-      {
-        id: 5,
-        name: "športujeme",
-        image: "../../images/project-sportujem/06.jpg",
-      },
-      {
-        id: 6,
-        name: "športujeme",
-        image: "../../images/project-sportujem/07.jpg",
-      },
-      {
-        id: 7,
-        name: "športujeme",
-        image: "../../images/project-sportujem/08.jpg",
-      },
-      {
-        id: 8,
-        name: "športujeme",
-        image: "../../images/project-sportujem/09.jpg",
-      },
-      {
-        id: 9,
-        name: "športujeme",
-        image: "../../images/project-sportujem/10.jpg",
+        image: "../../images/project-jedensvet/jedensvet-01.jpg",
       },
     ],
   },

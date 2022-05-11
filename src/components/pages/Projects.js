@@ -1,6 +1,5 @@
 import React from "react";
 
-import productImg from "../../images/girl.jpg";
 import Card from "../Card";
 import BreakerElement from "../objects/BreakerIcon";
 import { articles } from "../ProjectSection/ArticlesData";
@@ -30,7 +29,7 @@ function Projects() {
             return (
               <Card
                 key={article.id}
-                image={productImg}
+                image={article.gallery[0].image}
                 text={article.text}
                 path={`/projekty/${article.id}`}
                 title={article.title}
