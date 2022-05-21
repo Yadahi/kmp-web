@@ -33,10 +33,10 @@ function Navbar() {
           <div className="navbar__container ">
             {/* navigation logo */}
             <Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
-              <Link to="/" className="display-flex">
+              <div className="display-flex">
                 <LogoIcon />
                 <TextIcon />
-              </Link>
+              </div>
             </Link>
             {/* contains two components: button and menu */}
             <div className="navbar__menu">
