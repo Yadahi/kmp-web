@@ -15,8 +15,12 @@
   &__title {
     line-height: 1.5;
     color: $gl-white;
+    text-align: center;
     span {
       color: $tertiary;
+    }
+    @include breakpoint(small) {
+      text-align: left;
     }
   }
 }
