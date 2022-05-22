@@ -32,7 +32,7 @@ export const homeObjDonate = {
   topLine: "Podpor nás",
   headline: "Keď môžeš podporíš",
   description:
-    "Ak máš nejaký ten groš naviac a hľadáš kde by si ho rozumne daroval, ponúkame ti možnosť.",
+    "Ak máš nejaký ten finančný prebytok a hľadáš, kde by si ho rozumne daroval, ponúkame ti možnosť.",
   buttonLabel: "Podpor",
   img: "../../images/hp-boy.png",
   imgSize: "img-size",
