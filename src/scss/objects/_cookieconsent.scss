@@ -1,0 +1,27 @@
+#cm {
+  background-color: map-get($tints-colors, gl-red-100);
+  border: 2px solid $eerie-black;
+  box-shadow: $global-box-shadow-4;
+  #c-inr-i {
+    color: $tertiary;
+  }
+  #c-txt {
+    color: $eerie-black;
+  }
+  .c-bn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: 2px solid $eerie-black;
+    color: $eerie-black;
+  }
+  #c-p-bn {
+    background-color: map-get($main-colors, secondary);
+    color: $eerie-black;
+    &:hover {
+      background-color: map-get($tints-colors, gl-red-400);
+      color: $gl-white;
+    }
+  }
+  #c-s-bn {
+  }
+}

@@ -1,4 +1,6 @@
 import "vanilla-cookieconsent/src/cookieconsent.css";
+// import "./../scss/objects/cookieconsent.scss";
+
 import "vanilla-cookieconsent";
 
 export default function initCookies() {
