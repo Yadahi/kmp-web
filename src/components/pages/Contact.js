@@ -11,11 +11,11 @@ function Contact() {
         </h1>
         <div className="layout__inner padding-bottom-1">
           <p>
-            Na našich akciách sú vítaní všetci. Ak sa teda dozvieš o nejakej
-            našej akcii, prípadne uvidíš pozvánku tu na stránke alebo na
-            facebooku a máš chuť prísť, tak neváhaj a poď. Radi ťa spoznáme a
-            môžeš byť súčasťou našich akcií, nech sa týkajú čohokoľvek - športu,
-            prírody alebo kultúry. Najlepšie ak donesieš i kamarátov či rodinku.{" "}
+            Na našich udalostiach sú vítaní všetci. Ak sa teda dozvieš o nejakej
+            našej akcii a máš chuť prísť, tak neváhaj a poď. Sleduj túto stránku
+            alebo fb. Radi ťa spoznáme a môžeš byť súčasťou našich akcií, nech
+            sa týkajú čohokoľvek - športu, prírody alebo kultúry. Najlepšie ak
+            donesieš i kamarátov či rodinku.{" "}
           </p>
           <p>&nbsp;</p>
           <p>
@@ -25,6 +25,11 @@ function Contact() {
             budeme ešte radšej. Nič nám nerobí väčšiu radosť než spoznávať nové
             dobré srdcia, ktoré majú ochotu robiť niečo pre druhých a teda i pre
             seba. Kľudne nám napíš a my sa ti ozveme.
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            Netráp sa! Ak ťa táto stránka dostatočne informačne nenaplnila -
+            neváhaj a kontaktuj nás. Kde a ako nájdeš tu.
           </p>
         </div>
         <div className="layout__inner padding-top-1">

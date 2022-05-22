@@ -28,7 +28,11 @@ function Article() {
             <img className="article__header__img-main" src={gallery[0].image} />
             <h1 className="article__header__heading">{article.title}</h1>
             <div className="article__body">
-              <p>{article.text}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: article.text,
+                }}
+              ></p>
               <BreakerElement />
               <SRLWrapper>
                 <Gallery gallery={gallery} />

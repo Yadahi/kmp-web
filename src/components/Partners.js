@@ -5,7 +5,7 @@ function Partners() {
     <>
       {/* <div className="layout__inner"> */}
       <h2 className="text--center text--color--tertiary">
-        Ďakujeme partnerom &#10084;
+        Naši partneri &#10084;
       </h2>
       <p className="padding-top-1">
         Sme veľmi radi, že v Košiciach a okolí máme silný okruh spriaznených

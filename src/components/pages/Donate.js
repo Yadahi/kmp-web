@@ -16,7 +16,8 @@ function Donate() {
           </h3>
           <p className="donate__annotation">
             Ak máš nejaký ten finančný prebytok a hľadáš, kde by si ho rozumne
-            daroval, ponúkame ti možnosť. Dokonca viacero.
+            daroval, ponúkame ti možnosť. Dokonca viacero. Môžeš nám poslať
+            jednorázovú platbu priamo na náš transparentný účet :
           </p>
           <div className="layout__donate donate">
             <div className="donate__left">
@@ -38,7 +39,7 @@ function Donate() {
               </h4>
               <p>&nbsp;</p>
               <p>
-                Venujte nám <span className="text--color--gl-red">2%</span> z
+                Venuj nám <span className="text--color--gl-red">2%</span> z
                 dane.
               </p>
               <p>&nbsp;</p>

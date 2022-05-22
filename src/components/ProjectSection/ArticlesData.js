@@ -180,7 +180,9 @@ export const articles = [
   {
     id: 3,
     title: "Festival dokumentárnych filmov Jeden Svet Košice",
-    text: `Od roku 2020 zastrešujeme v Košiciach festival dokumentárnych filmov s ľudsko-právnou tematikou so slávnou značkou Jeden Svet a sme na to hrdí. Vďaka úžasnej šéfke festivalu Natálii Centkovej a skvelému teamu, ktorý sa rozširuje každým rokom dostáva festival po rokoch vajatania v Košiciach konečne kvalitnú podobu. Jeho program je nabitý skvelými dokumentami, diskusiami a sprievodným programom.`,
+    text: `Od roku 2020 zastrešujeme v Košiciach festival dokumentárnych filmov s ľudsko-právnou tematikou so slávnou značkou Jeden Svet a sme na to hrdí. Vďaka úžasnej šéfke festivalu Natálii Centkovej a skvelému teamu, ktorý sa rozširuje každým rokom dostáva festival po rokoch vajatania v Košiciach konečne kvalitnú podobu. Jeho program je nabitý skvelými dokumentami, diskusiami a sprievodným programom.
+    <p>&nbsp;</p>
+    Viac o festivale sa dozviete na jeho samostatnej stránke: <a href="https://www.jedensvetkosice.sk/" target="_blank">www.jedensvetkosice.sk</a>`,
 
     gallery: [
       {
