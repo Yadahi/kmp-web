@@ -11,8 +11,13 @@ import Article from "./components/ProjectSection/Article.js";
 import ScrollToTop from "./components/ScrollToTop";
 import Donate from "./components/pages/Donate";
 import Contact from "./components/pages/Contact";
+import initCookies from "./js/cookieConsent";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    initCookies();
+  }, []);
   return (
     <>
       <Router>
