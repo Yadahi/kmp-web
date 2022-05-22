@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { LogoIcon, TextIcon } from "./objects/LogoIcons";
-
-import logo from "../images/logo.svg";
-import text from "../images/text.svg";
+import HomeIcon from "@mui/icons-material/Home";
+import PersonIcon from "@mui/icons-material/Person";
+import EmailIcon from "@mui/icons-material/Email";
+import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
+import FolderSpecialIcon from "@mui/icons-material/FolderSpecial";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -46,13 +48,22 @@ function Navbar() {
               </div>
               {/* menu */}
               <ul className={click ? "navbar__list active" : "navbar__list"}>
+                <li className="navbar__item" id="home">
+                  <Link
+                    to="/"
+                    className="navbar__link"
+                    onClick={closeMobileMenu}
+                  >
+                    <HomeIcon /> Domov
+                  </Link>
+                </li>
                 <li className="navbar__item">
                   <Link
                     to="/o-nas"
                     className="navbar__link"
                     onClick={closeMobileMenu}
                   >
-                    O nás
+                    <PersonIcon /> O nás
                   </Link>
                 </li>
                 <li className="navbar__item">
@@ -61,7 +72,7 @@ function Navbar() {
                     className="navbar__link"
                     onClick={closeMobileMenu}
                   >
-                    Projekty
+                    <FolderSpecialIcon /> Projekty
                   </Link>
                 </li>
                 <li className="navbar__item">
@@ -70,7 +81,7 @@ function Navbar() {
                     className="navbar__link"
                     onClick={closeMobileMenu}
                   >
-                    Podpor nás
+                    <VolunteerActivismIcon /> Podpor nás
                   </Link>
                 </li>
                 <li className="navbar__item">
@@ -79,7 +90,7 @@ function Navbar() {
                     className="navbar__link"
                     onClick={closeMobileMenu}
                   >
-                    Kontakt
+                    <EmailIcon /> Kontakt
                   </Link>
                 </li>
               </ul>

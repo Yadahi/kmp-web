@@ -31,10 +31,6 @@
           opacity: 1;
           transition: all 0.5s ease;
           list-style-type: none;
-          .navbar__link {
-            // dopisat
-            color: red;
-          }
         }
         // defined navigation menu when viewport widder than small
         @include breakpoint(medium) {
@@ -47,11 +43,28 @@
         &.active {
           // when clicked -> active and screen small show navigation
           @media screen and (max-width: 723px) {
-            background: #242222;
+            background-color: map-get($tints-colors, gl-red-400);
             left: 0;
             opacity: 1;
             transition: all 0.5s ease;
             z-index: 1;
+            .navbar__item {
+              padding: 1.5rem 0;
+              font-size: 1.25rem;
+              &#home {
+                display: block;
+              }
+            }
+
+            .navbar__link {
+              // dopisat
+
+              svg {
+                display: inline-block;
+                vertical-align: sub;
+                // padding-right: 1rem;
+              }
+            }
           }
         }
       }
@@ -60,15 +73,22 @@
         &:hover {
           &::after {
             content: "";
-            border-bottom: 2px solid #fff;
+            border-bottom: 2px solid $gl-white;
             display: block;
             transition: all 0.2s ease-out;
           }
         }
+        &#home {
+          display: none;
+        }
       }
+
       .navbar__link {
-        color: #fff;
+        color: $gl-white;
         text-decoration: none;
+        svg {
+          display: none;
+        }
       }
     }
   }
