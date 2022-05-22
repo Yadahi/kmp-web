@@ -6,7 +6,7 @@
     color: $tertiary;
   }
   #c-txt {
-    color: $eerie-black;
+    color: #000;
   }
   .c-bn {
     padding: 0.5rem 1rem;
@@ -21,7 +21,5 @@
       background-color: map-get($tints-colors, gl-red-400);
       color: $gl-white;
     }
-  }
-  #c-s-bn {
   }
 }
