@@ -20,29 +20,34 @@ function Partners() {
       </p>
       <div className="layout__partners partners margin-top-1">
         <img
-          src="../../images/partnery-1.png"
+          src="../../images/partneri/partneri-01.jpeg"
           alt=""
           className="partners__img img-1"
         />
         <img
-          src="../../images/partnery-2.png"
+          src="../../images/partneri/partneri-02.jpeg"
           alt=""
           className="partners__img img-2"
         />
         <img
-          src="../../images/partnery-3.png"
+          src="../../images/partneri/partneri-03.jpeg"
           alt=""
           className="partners__img img-3"
         />
         <img
-          src="../../images/partnery-4.jpg"
+          src="../../images/partneri/partneri-04.jpeg"
           alt=""
           className="partners__img img-4"
         />
         <img
-          src="../../images/partnery-5.jpg"
+          src="../../images/partneri/partneri-05.jpeg"
           alt=""
           className="partners__img img-5"
+        />
+        <img
+          src="../../images/partneri/partneri-06.png"
+          alt=""
+          className="partners__img img-6"
         />
       </div>
       {/* </div> */}
