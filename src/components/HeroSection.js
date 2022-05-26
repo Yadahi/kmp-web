@@ -9,7 +9,7 @@ function HeroSection() {
         <div className="layout__hero-section hero-section">
           <div className="hero-section__left">
             <h1 className="hero-section__title">
-              KEĎ MÔŽEM <span>POMOŽEM</span>
+              KEĎ MÔŽEM <span>POMÔŽEM</span>
             </h1>
             <p>
               <strong>

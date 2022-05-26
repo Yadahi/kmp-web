@@ -44,14 +44,7 @@ function Donate() {
               </p>
               <p>&nbsp;</p>
               <p>
-                Zapojte sa do našich <Link to="/projekty"> akcií</Link> alebo sa
-                zúčastnite s vašou firmou / zamestnávateľom nášho{" "}
-                <a
-                  href="https://www.facebook.com/events/2165929666972224/"
-                  target="_blank"
-                >
-                  futsalového turnaja.
-                </a>
+                Zapojte sa do našich <Link to="/projekty"> akcií</Link>.
               </p>
             </div>
             <div className="donate__right donate__img">

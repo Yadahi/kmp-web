@@ -4,7 +4,7 @@ export const homeObjAbout = {
   headline: "Keď môžem predstavím sa",
   description:
     "Sme skupina ľudí, ktorá rada venuje energiu zmysluplným projektom. S vášňou v srdci podporujeme rozmanitosť a spoločné úsilie.",
-  buttonLabel: "Viacej",
+  buttonLabel: "Viac",
   img: "../../images/hp-aboutus.png",
   alt: "Hand",
   headlineColor: "",
