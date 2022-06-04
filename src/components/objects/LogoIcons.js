@@ -1,4 +1,4 @@
-import { ReactComponent as TextSvg } from "../../images/icons/text.svg";
+import { ReactComponent as TextSvg } from "../../images/icons/text-logo.svg";
 import { ReactComponent as LogoSvg } from "../../images/icons/logo.svg";
 
 import React from "react";
