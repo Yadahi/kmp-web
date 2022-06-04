@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import Home from "./components/pages/Home.js";
 import About from "./components/pages/About.js";
 import Projects from "./components/pages/Projects";
-import ErrorPage from "./components/pages/ErrorPage.js";
 import Article from "./components/ProjectSection/Article.js";
 import ScrollToTop from "./components/ScrollToTop";
 import Donate from "./components/pages/Donate";
@@ -30,7 +29,7 @@ function App() {
             <Route path="/projekty/:id" exact element={<Article />} />
             <Route path="/podpor-nas" exact element={<Donate />} />
             <Route path="/kontakt" exact element={<Contact />} />
-            <Route path="*" exact element={<ErrorPage />} />
+            <Route path="*" exact element={<Home />} />
           </Routes>
         </ScrollToTop>
         <Footer />
