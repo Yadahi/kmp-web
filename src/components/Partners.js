@@ -49,6 +49,16 @@ function Partners() {
           alt=""
           className="partners__img img-6"
         />
+        <img
+          src="../../images/partneri/partneri-07.png"
+          alt=""
+          className="partners__img img-7"
+        />
+        <img
+          src="../../images/partneri/partneri-08.png"
+          alt=""
+          className="partners__img img-8"
+        />
       </div>
       {/* </div> */}
     </>

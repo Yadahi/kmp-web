@@ -98,19 +98,25 @@
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     grid-template-areas:
       "img-1"
       "img-2"
       "img-3"
       "img-4"
       "img-5"
-      "img-6";
+      "img-6"
+      "img-7"
+      "img-8";
     @include breakpoint(small) {
       gap: 2rem;
       grid-template-areas:
-        "img-2 img-2 img-3 img-3 img-5 img-5"
-        "img-1 img-1 img-4 img-4 img-6 img-6";
+        "img-2 img-2 img-3 img-3 img-1 img-1 img-4 img-4"
+        "img-5 img-5 img-6 img-6 img-7 img-7 img-8 img-8";
+      // "img-2 img-2 img-3 img-3 "
+      // "img-1 img-1 img-4 img-4 "
+      // "img-5 img-5 img-6 img-6"
+      // "img-7 img-7 img-8 img-8";
     }
   }
   &__hero-section {
