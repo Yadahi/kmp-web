@@ -1,7 +1,52 @@
 import React from "react";
 import BreakerElement from "../objects/BreakerIcon";
+import Gallery from "../Gallery";
+import { SRLWrapper } from "simple-react-lightbox";
 
 function Invite() {
+  const galleryInvite = [
+    {
+      id: 0,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-05.jpg",
+    },
+    {
+      id: 1,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-02.jpg",
+    },
+    {
+      id: 2,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-03.jpg",
+    },
+    {
+      id: 3,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-04.jpg",
+    },
+    {
+      id: 4,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-01.jpg",
+    },
+    {
+      id: 5,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-06.jpg",
+    },
+    {
+      id: 6,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-07.jpg",
+    },
+    {
+      id: 7,
+      name: "pozvi-nas",
+      image: "../../images/invite/invite-08.jpg",
+    },
+  ];
+
   return (
     <>
       <div className="layout">
@@ -9,7 +54,10 @@ function Invite() {
           Pozvi si nás
         </h1>
         <div className="layout__inner">
-          <img className="about__img" src="../../images/aboutus.png" />
+          <img
+            className="about__img"
+            src="../../images/invite/invite-08-2.jpg"
+          />
           <p className="padding-top-1">
             Ak máš chuť vidieť nás v akcii, pozvi si nás a my tebe a kamatátom,
             prípadne vašej firme prídeme pripraviť komunitnú akciu na mieru.
@@ -23,21 +71,11 @@ function Invite() {
             do organizácie a práce ľuďom zo znevýhodneného prostredia, a ak si
             nás pozveš, dáš šancu aj im! :) Cena dohodou ;)
           </p>
-        </div>
-        <BreakerElement />
-
-        <div className="layout__inner layout__project">
-          {/* {articles.map((article) => {
-            return (
-              <Card
-                key={article.id}
-                image={article.gallery[0].image}
-                text={article.text}
-                path={`/projekty/${article.id}`}
-                title={article.title}
-              />
-            );
-          })} */}
+          <BreakerElement />
+          <SRLWrapper>
+            <Gallery gallery={galleryInvite} />
+          </SRLWrapper>
+          {galleryInvite ? null : <BreakerElement />}
         </div>
       </div>
     </>
