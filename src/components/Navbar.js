@@ -6,6 +6,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import EmailIcon from "@mui/icons-material/Email";
 import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 import FolderSpecialIcon from "@mui/icons-material/FolderSpecial";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -82,6 +83,15 @@ function Navbar() {
                     onClick={closeMobileMenu}
                   >
                     <VolunteerActivismIcon /> Podpor nás
+                  </Link>
+                </li>
+                <li className="navbar__item">
+                  <Link
+                    to="/pozvi-nas"
+                    className="navbar__link"
+                    onClick={closeMobileMenu}
+                  >
+                    <EmojiPeopleIcon /> Pozvi nás
                   </Link>
                 </li>
                 <li className="navbar__item">
