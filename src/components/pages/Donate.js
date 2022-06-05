@@ -51,7 +51,7 @@ function Donate() {
               <img
                 src="../../images/img-donate.png "
                 alt=""
-                class="donate__img"
+                className="donate__img"
               />
             </div>
           </div>

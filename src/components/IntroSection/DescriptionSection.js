@@ -5,7 +5,7 @@ function DescriptionSection(props) {
   const { intro, introEnglish } = props;
   return (
     <div className="about__header">
-      <img class="about__img" src="../../images/aboutus.png" />
+      <img className="about__img" src="../../images/aboutus.png" />
 
       <p
         className="about__description padding-top-1"

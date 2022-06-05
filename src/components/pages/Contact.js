@@ -34,7 +34,7 @@ function Contact() {
         </div>
         <div className="layout__inner padding-top-1">
           <div className="layout__contact contact">
-            <h3 class="contact__title">Kde sídlíme</h3>
+            <h3 className="contact__title">Kde sídlíme</h3>
             <div className="contact__address">
               <p>
                 <strong>Keď môžem pomôžem</strong>
@@ -80,8 +80,8 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div class="mapouter">
-            <div class="gmap_canvas">
+          <div className="mapouter">
+            <div className="gmap_canvas">
               <iframe
                 id="gmap_canvas"
                 src="https://maps.google.com/maps?q=Moldavsk%C3%A1%209%20%20040%2011%20Ko%C5%A1ice&t=&z=15&ie=UTF8&iwloc=&output=embed"
