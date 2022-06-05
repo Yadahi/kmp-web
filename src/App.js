@@ -10,6 +10,7 @@ import Article from "./components/ProjectSection/Article.js";
 import ScrollToTop from "./components/ScrollToTop";
 import Donate from "./components/pages/Donate";
 import Contact from "./components/pages/Contact";
+import Invite from "./components/pages/Invite";
 import initCookies from "./js/cookieConsent";
 import { useEffect } from "react";
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/o-nas" exact element={<About />} />
             <Route path="/projekty" exact element={<Projects />} />
             <Route path="/projekty/:id" exact element={<Article />} />
+            <Route path="/pozvi-nas" exact element={<Invite />} />
             <Route path="/podpor-nas" exact element={<Donate />} />
             <Route path="/kontakt" exact element={<Contact />} />
             <Route path="*" exact element={<Home />} />
